@@ -2,7 +2,7 @@
 	"name" : "APO8_main004",
 	"version" : 1,
 	"creationdate" : 3826995832,
-	"modificationdate" : 3827076135,
+	"modificationdate" : 3830177050,
 	"viewrect" : [ 22.0, 113.0, 343.0, 685.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -31,10 +31,6 @@
 		}
 ,
 		"externals" : 		{
-
-		}
-,
-		"other" : 		{
 
 		}
 
