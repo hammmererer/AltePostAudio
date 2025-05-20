@@ -1,0 +1,45 @@
+ResAn_Analysis
+
+Analysis
+ Step_Begin                         0
+ Step_End                           5
+ Mode                               Fof
+
+Analysis_Settings                   defaults    0           1           2           3           4           5           6           7           
+
+Out_Typing
+ Format_Sdif                        Yes         _           _           _           _           _           Yes         _           _           
+ Format_AscII                       No          _           _           _           _           _           Yes         _           _           
+ Format_Max                         No          _           _           _           _           _           Yes         _           _           
+
+Spectral_Estimation
+ First_Window_Begining              0.0         _           _           _           _           _           _           _           _           
+ First_Window_Begining_Relative     0.0         0.125       0.25        0.5         0.833       1.25        2.5         _           _           
+ Second_Window_Begining             0.0         _           _           _           _           _           _           _           _           
+ Second_Window_Begining_Relative    0.0         _           _           _           _           _           _           _           _           
+ Window_Duration                    0.0         _           _           _           _           _           _           _           _           
+ Window_Duration_Relative           0.0         2.5         5.0         10.0        16.667      25.0        45.0        _           _           
+ Window_Type                        BH-92dB     _           _           _           _           _           _           _           _           
+ FFT_Duration                       0.0         _           _           _           _           _           _           _           _           
+
+Pics_Extraction
+ Extract_Smallers                   All         _           _           _           _           _           _           _           _           
+ Pics_Width                         0.0         _           _           _           _           _           _           _           _           
+ Pics_Amplitude                     2.0         _           _           _           _           _           _           _           _           
+ Min_Amplitude_1st_Window           -60.0       _           _           _           _           _           _           _           _           
+ Min_Amplitude_2nd_Window           -76.0       _           _           _           _           _           _           _           _           
+
+Pics_Matching
+ Matching_Mode                      Closest     _           _           _           _           _           _           _           _           
+ Matching_Threshold                 0.0         _           _           _           _           _           _           _           _           
+ Coefficient_Threshold              4.0         _           _           _           _           _           _           _           _           
+
+Merged_Analysis
+ Resonances_Matching                Closest     _           _           _           _           _           _           _           _           
+ Resonances_Doubling                Off         _           _           _           _           _           _           _           _           
+ Matching_Checking                  No          _           Yes         Yes         Yes         Yes         Yes         _           _           
+ Matching_Threshold                 0.0         _           _           _           _           _           _           _           _           
+ Coefficient_Threshold              2.0         _           _           _           _           _           _           _           _           
+ Max_Bandwith_For_Doubling          12.0        _           _           _           _           _           _           _           _           
+ Min_DeltaBandwith_For_Doubling     5.0         _           _           _           _           _           _           _           _           
+
