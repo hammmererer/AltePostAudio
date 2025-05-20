@@ -11,6 +11,8 @@
 ,
 		"classnamespace" : "box",
 		"rect" : [ 404.0, 177.0, 236.0, 74.0 ],
+		"default_fontsize" : 10.0,
+		"default_fontname" : "Arial Bold",
 		"gridsize" : [ 8.0, 8.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
@@ -86,7 +88,7 @@
 
 			}
  ],
-		"originid" : "pat-11514"
+		"originid" : "pat-5077"
 	}
 
 }

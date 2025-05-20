@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 9.0, 50.0, 1880.0, 1301.0 ],
+		"rect" : [ 0.0, 43.0, 2527.0, 1316.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"toolbars_unpinned_last_save" : 3,
@@ -18,16 +18,130 @@
 		"enablevscroll" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-72",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "mc.look8.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 2,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "", "multichannelsignal" ],
+					"patching_rect" : [ 2009.089999999999918, 581.82000000000005, 442.0, 39.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1088.311677932739258, 918.181809425354004, 442.0, 39.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-68",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "blp814.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 1229.0, 497.0, 735.0, 491.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1057.0, 274.0, 734.0, 441.0 ],
+					"varname" : "blp814",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "A" ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-52",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "rressynth039.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 1068.0, 781.0, 801.0, 186.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1057.0, 739.0, 770.0, 140.0 ],
+					"varname" : "rressynth039",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-43",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "bus_pos.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 1142.0, 712.0, 503.0, 113.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1184.0, 134.0, 503.0, 113.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-5",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "bus_pos.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 1127.0, 697.0, 503.0, 113.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1184.0, 17.5, 503.0, 113.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontsize" : 16.0,
 					"id" : "obj-31",
 					"linecount" : 11,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1264.0, 530.0, 197.0, 209.0 ],
+					"patching_rect" : [ 1264.0, 530.0, 201.0, 209.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 6,
-					"presentation_rect" : [ 1034.0, 428.0, 355.0, 117.0 ],
+					"presentation_rect" : [ 1034.0, 1122.0, 355.0, 117.0 ],
 					"text" : "Preset Speicher: Shift + Click\nPreset Löschen: Shift + Alt + Click\n\nVOR SCHLIESSEN IMMER FÜR ALLE PRESETS SAFE VIA WRITE!!!!!!\nPreset Idee/Kommentar bitte manuell anmerken."
 				}
 
@@ -43,7 +157,7 @@
 					"patching_rect" : [ 1249.0, 515.0, 197.0, 80.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 4,
-					"presentation_rect" : [ 1023.0, 283.0, 197.0, 80.0 ],
+					"presentation_rect" : [ 1452.0, 1165.0, 197.0, 80.0 ],
 					"text" : "Start Prozess:\n1. kurz Warten\n2. Routing Preset clicken\n3. DSP Starten"
 				}
 
@@ -829,7 +943,7 @@
 
 							}
  ],
-						"originid" : "pat-1314"
+						"originid" : "pat-1760"
 					}
 ,
 					"patching_rect" : [ 351.16277813911438, 423.255798816680908, 100.0, 22.0 ],
@@ -1770,7 +1884,7 @@
 
 											}
  ],
-										"originid" : "pat-1318"
+										"originid" : "pat-1764"
 									}
 ,
 									"patching_rect" : [ 31.0, 735.0, 405.0, 22.0 ],
@@ -2040,7 +2154,7 @@
 
 							}
  ],
-						"originid" : "pat-1316"
+						"originid" : "pat-1762"
 					}
 ,
 					"patching_rect" : [ 442.528728246688843, 466.666658878326416, 101.0, 29.0 ],
@@ -2122,7 +2236,7 @@
 											}
  ],
 										"lines" : [  ],
-										"originid" : "pat-1322"
+										"originid" : "pat-1768"
 									}
 ,
 									"patching_rect" : [ 95.0, 196.0, 63.0, 22.0 ],
@@ -2194,7 +2308,7 @@
 
 							}
  ],
-						"originid" : "pat-1320"
+						"originid" : "pat-1766"
 					}
 ,
 					"patching_rect" : [ 1270.11492133140564, 846.116276741027832, 39.080459117889404, 22.0 ],
@@ -2340,7 +2454,7 @@
 					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 5.0, 695.720929026603699, 679.0, 121.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 309.0, 670.0, 126.0 ],
+					"presentation_rect" : [ 13.0, 308.0, 670.0, 126.0 ],
 					"varname" : "m_sfpx8[2]",
 					"viewvisibility" : 1
 				}
@@ -2412,7 +2526,7 @@
 							}
  ],
 						"lines" : [  ],
-						"originid" : "pat-1469"
+						"originid" : "pat-1913"
 					}
 ,
 					"patching_rect" : [ 201.14942193031311, 127.816092491149902, 100.0, 25.0 ],
@@ -2529,9 +2643,10 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 158.0, 226.0, 995.0, 306.0 ],
+						"rect" : [ 136.0, 115.0, 997.0, 308.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
 						"toolbars_unpinned_last_save" : 3,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-16",
@@ -2635,13 +2750,13 @@
 								"box" : 								{
 									"fontsize" : 11.0,
 									"id" : "obj-7",
-									"linecount" : 3,
+									"linecount" : 4,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 145.0, 178.0, 125.0, 46.0 ],
-									"text" : "prefix C:/AP_MAX/reso-profiles/"
+									"patching_rect" : [ 145.0, 178.0, 125.0, 59.0 ],
+									"text" : "prefix C:/Users/SHA.ART/Documents/AltePostAudio/reso_profiles/"
 								}
 
 							}
@@ -2649,13 +2764,13 @@
 								"box" : 								{
 									"fontsize" : 11.0,
 									"id" : "obj-6",
-									"linecount" : 3,
+									"linecount" : 5,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 9.0, 178.0, 124.0, 46.0 ],
-									"text" : "prefix C:/AP_MAX/SHA.Quellmaterial_25-03-20/"
+									"patching_rect" : [ 9.0, 178.0, 110.0, 72.0 ],
+									"text" : "prefix C:/Users/SHA.ART/Documents/material_2025-03-20_converted/"
 								}
 
 							}
@@ -2952,7 +3067,7 @@
 
 											}
  ],
-										"originid" : "pat-1506"
+										"originid" : "pat-1950"
 									}
 ,
 									"patching_rect" : [ 771.0, 81.0, 55.0, 21.0 ],
@@ -2970,7 +3085,7 @@
 									"depth" : 3,
 									"fontsize" : 11.0,
 									"id" : "obj-68",
-									"items" : [ "Geräusche-FieldRecordings-Atmosphären/Bells-Atmo.wav", ",", "Geräusche-FieldRecordings-Atmosphären/Bill Fontana-Landscape Sounding.wav", ",", "Geräusche-FieldRecordings-Atmosphären/Ceramics.wav", ",", "Geräusche-FieldRecordings-Atmosphären/Clocks.wav", ",", "Geräusche-FieldRecordings-Atmosphären/Fire-Burning.wav", ",", "Geräusche-FieldRecordings-Atmosphären/Grassland-Birds-Insects.wav", ",", "Geräusche-FieldRecordings-Atmosphären/Household-Cleaning.wav", ",", "Geräusche-FieldRecordings-Atmosphären/Rain-Glass.wav", ",", "Geräusche-FieldRecordings-Atmosphären/Stift Heiligenkreuz Kirchenglocken.wav", ",", "Geräusche-FieldRecordings-Atmosphären/Water Droplets-Water Movement.wav", ",", "Geräusche-FieldRecordings-Atmosphären/Weather-Thunder-Rolling.wav", ",", "HistAufnahmen-Reden-Recordings/06 In the Mood.wav", ",", "HistAufnahmen-Reden-Recordings/09 Schtzngrbn.wav", ",", "HistAufnahmen-Reden-Recordings/100 final-Österreich ist frei.wav", ",", "HistAufnahmen-Reden-Recordings/102 final-Papstsegen.wav", ",", "HistAufnahmen-Reden-Recordings/104 Albert Schweitzer.wav", ",", "HistAufnahmen-Reden-Recordings/106 Hermann Hesse.wav", ",", "HistAufnahmen-Reden-Recordings/63 final-Ich bin ein Berliner.wav", ",", "HistAufnahmen-Reden-Recordings/64 final-I have a dream.wav", ",", "HistAufnahmen-Reden-Recordings/75 Weathies Jingle.wav", ",", "HistAufnahmen-Reden-Recordings/84 final-Thomas Edison.wav", ",", "HistAufnahmen-Reden-Recordings/88 Trompete-ich hatt einen Kameraden.wav", ",", "HistMusik-Klassik/01 Tallis-Spem In Alium.wav", ",", "HistMusik-Klassik/01 Victoria-O Domine Jesu Christe.wav", ",", "HistMusik-Klassik/2 Cavatina.wav", ",", "HistMusik-Klassik/3 Out of Africa.wav", ",", "HistMusik-Klassik/Bach - Cello Suite #1 In G BWV 1007 - 1. Prélude.wav", ",", "HistMusik-Klassik/Franz Lehár - Das Land des Lachelns.wav", ",", "HistMusik-Klassik/Mahler Symphony #9 In D - 4. Adagio, Sehr Langsam Und Noch Zuruekhaltend..wav", ",", "HistMusik-Klassik/Mozart- Requiem In D Minor K 626 - Introitus- Requiem Aeternam.wav", ",", "HistMusik-Klassik/Mozart- Requiem In D Minor K 626 - Kyrie Eleison.wav", ",", "HistMusik-Klassik/Stadtkapelle Hartberg - Deutschmeister Regimentsmarsch.wav", ",", "HistMusik-Klassik/Stadtkapelle Hartberg - Sonnenstadt marsch.wav", ",", "Popularmusik/26_0089_1DEZ17.wav", ",", "Popularmusik/30_0181_SUNRISE.wav", ",", "Popularmusik/35_0272_RITUAL_STARTPARTY.wav", ",", "Popularmusik/AIR - Moon Safari - Ce Matin La.wav", ",", "Popularmusik/AIR - Moon Safari - La Femme D'Argent.wav", ",", "Popularmusik/AIR - Moon Safari - New Star In The Sky.wav", ",", "Popularmusik/AIR - Premiers - Brakes On.wav", ",", "Popularmusik/AIR - Premiers - Californie.wav", ",", "Popularmusik/AIR - Premiers - J'ai Dormi Sous L'Eau.wav", ",", "Popularmusik/AIR - Premiers - Les Professionnels.wav", ",", "Popularmusik/AIR - Virgin Suicides - Playground Love.wav", ",", "Popularmusik/André Heller - Liebeslieder - Da Bin I Ka Liliputaner Mehr.wav", ",", "Popularmusik/André Heller - Liebeslieder - Das Lied vom idealen Park.wav", ",", "Popularmusik/André Heller - Liebeslieder - Du ungnädige Gnädige.wav", ",", "Popularmusik/André Heller - Liebeslieder - Du, du, du.wav", ",", "Popularmusik/André Heller - Liebeslieder - Ich Weiss Nicht, Zu Wem Ich Gehore.wav", ",", "Popularmusik/André Heller - Liebeslieder - Miramare.wav", ",", "Popularmusik/André Heller - Liebeslieder - Waast es eh.wav", ",", "Popularmusik/André Heller - Liebeslieder - Wie Mei Herzschlag.wav", ",", "Popularmusik/Oasis - Be Here Now - D'You Know What I Mean.wav", ",", "Popularmusik/Sinéad OConnor – I Want To Be Loved By You.wav", ",", "Popularmusik/Sinéad OConnor – Love Letters.wav", ",", "Popularmusik/Sinéad OConnor – Scarlett Ribbons.wav", ",", "Popularmusik/Sinéad OConnor – Secret Love.wav", ",", "Popularmusik/Sinéad OConnor – Why Don't You Do Right-.wav", ",", "SHA.Transformationen-Hörbeispiele/RaumMusik/02_0603_Airbells.wav", ",", "SHA.Transformationen-Hörbeispiele/RaumMusik/03_0280_Breath.wav", ",", "SHA.Transformationen-Hörbeispiele/RaumMusik/04_0557_Breathless.wav", ",", "SHA.Transformationen-Hörbeispiele/RaumMusik/05_0727_Cosmic.wav", ",", "SHA.Transformationen-Hörbeispiele/RaumMusik/06_0505_Crush.wav", ",", "SHA.Transformationen-Hörbeispiele/RaumMusik/07_0582_Enigma.wav", ",", "SHA.Transformationen-Hörbeispiele/RaumMusik/08_0353_Fly.wav", ",", "SHA.Transformationen-Hörbeispiele/RaumMusik/09_0393_Ghost.wav", ",", "SHA.Transformationen-Hörbeispiele/RaumMusik/10_0344_Glass.wav", ",", "SHA.Transformationen-Hörbeispiele/RaumMusik/11_0479_Granular.wav", ",", "SHA.Transformationen-Hörbeispiele/RaumMusik/12_0664_Icemallets.wav", ",", "SHA.Transformationen-Hörbeispiele/RaumMusik/13_0384_Insects.wav", ",", "SHA.Transformationen-Hörbeispiele/RaumMusik/14_0249_Outerland.wav", ",", "SHA.Transformationen-Hörbeispiele/RaumMusik/15_0358_Pumping.wav", ",", "SHA.Transformationen-Hörbeispiele/RaumMusik/16_0477_Shifting.wav", ",", "SHA.Transformationen-Hörbeispiele/RaumMusik/17_0781_Sines.wav", ",", "SHA.Transformationen-Hörbeispiele/RaumMusik/18_0567_Softbells.wav", ",", "SHA.Transformationen-Hörbeispiele/RaumMusik/19_0379_Stutter.wav", ",", "SHA.Transformationen-Hörbeispiele/RaumMusik/20_0378_Sunglitter.wav", ",", "SHA.Transformationen-Hörbeispiele/RaumMusik/21_0380_Sunrise.wav", ",", "SHA.Transformationen-Hörbeispiele/RaumMusik/22_0485_Swirling.wav", ",", "SHA.Transformationen-Hörbeispiele/RaumMusik/23_0676_Voxbox.wav", ",", "SHA.Transformationen-Hörbeispiele/RaumMusik/24_0268_Waver.wav", ",", "SHA.Transformationen-Hörbeispiele/RaumMusik/25_0584_Wonder.wav", ",", "SHA.Transformationen-Hörbeispiele/StimmenGottes.CD4/1 Audiospur.wav", ",", "SHA.Transformationen-Hörbeispiele/StimmenGottes.CD4/2 Audiospur.wav", ",", "SHA.Transformationen-Hörbeispiele/StimmenGottes.CD4/3 Audiospur.wav", ",", "SHA.Transformationen-Hörbeispiele/StimmenGottes.CD4/4 Audiospur.wav", ",", "SHA.Transformationen-Hörbeispiele/StimmenGottes.CD4/5 Audiospur.wav", ",", "SHA.Transformationen-Hörbeispiele/StimmenGottes.CD4/6 Audiospur.wav", ",", "SHA.Transformationen-Hörbeispiele/StimmenGottes.CD4/7 Audiospur.wav", ",", "World MusicPopu-AfricanAngels/1 Sala Keba (Zaire).wav", ",", "World MusicPopu-AfricanAngels/10 Tchewata (Ethiopia).wav", ",", "World MusicPopu-AfricanAngels/12 Sizà (Burkina Faso).wav", ",", "World MusicPopu-AfricanAngels/2 Sallé (Zaire).wav", ",", "World MusicPopu-AfricanAngels/4 Forest Nativity (Cameroun).wav", ",", "World MusicPopu-AfricanAngels/8 Obiero (Kenya).wav", ",", "WorldMusicOrig-SHA.StimmenGottes/01 Anon- In Paradisum.wav", ",", "WorldMusicOrig-SHA.StimmenGottes/01 Goiserer.wav", ",", "WorldMusicOrig-SHA.StimmenGottes/01 Naujaaluk.wav", ",", "WorldMusicOrig-SHA.StimmenGottes/01 Zauerli.wav", ",", "WorldMusicOrig-SHA.StimmenGottes/03 Eilu Devorim (Yaakov Rappoport).wav", ",", "WorldMusicOrig-SHA.StimmenGottes/05 Mbaire (Busoga).wav", ",", "WorldMusicOrig-SHA.StimmenGottes/08 Borbanngadyr.wav", ",", "WorldMusicOrig-SHA.StimmenGottes/09 Anuriujaq.wav", ",", "WorldMusicOrig-SHA.StimmenGottes/1 Audiospur.wav", ",", "WorldMusicOrig-SHA.StimmenGottes/1 Tuva.wav", ",", "WorldMusicOrig-SHA.StimmenGottes/10 Almquartett.wav", ",", "WorldMusicOrig-SHA.StimmenGottes/10 Intertribal.wav", ",", "WorldMusicOrig-SHA.StimmenGottes/10 Kafi.wav", ",", "WorldMusicOrig-SHA.StimmenGottes/10 The Dagar Brothers India.wav", ",", "WorldMusicOrig-SHA.StimmenGottes/11 Audiospur.wav", ",", "WorldMusicOrig-SHA.StimmenGottes/11 Folk Melody Based On Raag Des.wav", ",", "WorldMusicOrig-SHA.StimmenGottes/11 R.A.Ramamani.wav", ",", "WorldMusicOrig-SHA.StimmenGottes/12 Black Umfolosi.wav", ",", "WorldMusicOrig-SHA.StimmenGottes/13 Audiospur.wav", ",", "WorldMusicOrig-SHA.StimmenGottes/14 Dqua-Iquia.wav", ",", "WorldMusicOrig-SHA.StimmenGottes/14 Katatuarufituinak.wav", ",", "WorldMusicOrig-SHA.StimmenGottes/14 Suzhou.wav", ",", "WorldMusicOrig-SHA.StimmenGottes/15 Audiospur.wav", ",", "WorldMusicOrig-SHA.StimmenGottes/15 Dona Rosa.wav", ",", "WorldMusicOrig-SHA.StimmenGottes/15 The Awakening Lotus Flower.wav", ",", "WorldMusicOrig-SHA.StimmenGottes/16 Allahaema Labeyk.wav", ",", "WorldMusicOrig-SHA.StimmenGottes/16 Mu Min Xin Ge.wav", ",", "WorldMusicOrig-SHA.StimmenGottes/18 Soron Bushi.wav", ",", "WorldMusicOrig-SHA.StimmenGottes/19 Keshi No Hana.wav", ",", "WorldMusicOrig-SHA.StimmenGottes/2 Audiospur.wav", ",", "WorldMusicOrig-SHA.StimmenGottes/2 Konakkol.wav", ",", "WorldMusicOrig-SHA.StimmenGottes/2 Tongoyo.wav", ",", "WorldMusicOrig-SHA.StimmenGottes/20 Karibushi Kiriuta.wav", ",", "WorldMusicOrig-SHA.StimmenGottes/21 Audiospur.wav", ",", "WorldMusicOrig-SHA.StimmenGottes/3 Angelite.wav", ",", "WorldMusicOrig-SHA.StimmenGottes/3 Audiospur.wav", ",", "WorldMusicOrig-SHA.StimmenGottes/4 Sabri Brothers.wav", ",", "WorldMusicOrig-SHA.StimmenGottes/6 Inuit Women.wav", ",", "WorldMusicOrig-SHA.StimmenGottes/7 Black Umfolos.wav", ",", "WorldMusicOrig-SHA.StimmenGottes/8 Nagmeh Esfahan.wav", ",", "WorldMusicOrig-SHA.StimmenGottes/8 Shanmuga.wav", ",", "WorldMusicOrig-SHA.StimmenGottes/9 Black Lodge Singers.wav", ",", "WorldMusicOrig-SHA.StimmenGottes/Darwin Cyclone.wav" ],
+									"items" : [ "Geräusche etc. Field Recordings Atmosphären/Bells, Atmo.wav", ",", "Geräusche etc. Field Recordings Atmosphären/Bill Fontana - Landscape Sounding.wav", ",", "Geräusche etc. Field Recordings Atmosphären/Ceramics.wav", ",", "Geräusche etc. Field Recordings Atmosphären/Clocks.wav", ",", "Geräusche etc. Field Recordings Atmosphären/Fire, Burning.wav", ",", "Geräusche etc. Field Recordings Atmosphären/Grassland, Birds, Insects.wav", ",", "Geräusche etc. Field Recordings Atmosphären/Household, Cleaning.wav", ",", "Geräusche etc. Field Recordings Atmosphären/Rain, Glass.wav", ",", "Geräusche etc. Field Recordings Atmosphären/Stift Heiligenkreuz Kirchenglocken.wav", ",", "Geräusche etc. Field Recordings Atmosphären/Water Droplets, Water Movement.wav", ",", "Geräusche etc. Field Recordings Atmosphären/Weather, Thunder, Rolling.wav", ",", "Historische Aufnahmen _ Reden _ Recordings/06 In the Mood.wav", ",", "Historische Aufnahmen _ Reden _ Recordings/100 final - _Österreich ist frei_.wav", ",", "Historische Aufnahmen _ Reden _ Recordings/102 final - _Papstsegen_.wav", ",", "Historische Aufnahmen _ Reden _ Recordings/103 - _Greta Thunberg_.wav", ",", "Historische Aufnahmen _ Reden _ Recordings/104 - _Albert Schweitzer_.wav", ",", "Historische Aufnahmen _ Reden _ Recordings/106 - _Hermann Hesse_.wav", ",", "Historische Aufnahmen _ Reden _ Recordings/42 - _Lili Marleen_.wav", ",", "Historische Aufnahmen _ Reden _ Recordings/45 andrew Sisters.wav", ",", "Historische Aufnahmen _ Reden _ Recordings/5 - La donna e mobile.wav", ",", "Historische Aufnahmen _ Reden _ Recordings/63 final - _Ich bin ein Berliner_.wav", ",", "Historische Aufnahmen _ Reden _ Recordings/64 final - _I have a dream_.wav", ",", "Historische Aufnahmen _ Reden _ Recordings/75 - _Weathies Jingle_.wav", ",", "Historische Aufnahmen _ Reden _ Recordings/84 final - _Thomas Edison_.wav", ",", "Historische Aufnahmen _ Reden _ Recordings/88 Chor - _Ich hatt einen Kameraden_.wav", ",", "Historische Aufnahmen _ Reden _ Recordings/88 Trompete - _ich hatt einen Kameraden_.wav", ",", "Historische Aufnahmen _ Reden _ Recordings/9 - _Schtzngrbn_.wav", ",", "Historische Aufnahmen _ Reden _ Recordings/Franz Lehár - Das Land des Lachelns.wav", ",", "Historische Musik Klassik etc/01 Tallis- Spem In Alium.wav", ",", "Historische Musik Klassik etc/01 Victoria- O Domine Jesu Christe.wav", ",", "Historische Musik Klassik etc/2 Cavatina.wav", ",", "Historische Musik Klassik etc/3 Out of Africa.wav", ",", "Historische Musik Klassik etc/Bach - Cello Suite #1 In G, BWV 1007 - 1. Prélude.wav", ",", "Historische Musik Klassik etc/Mahler_ Symphony #9 In D - 4. Adagio, Sehr Langsam Und Noch Zuruekhaltend..wav", ",", "Historische Musik Klassik etc/Mozart- Requiem In D Minor, K 626 - Introitus- Requiem Aeternam.wav", ",", "Historische Musik Klassik etc/Mozart- Requiem In D Minor, K 626 - Kyrie Eleison.wav", ",", "Historische Musik Klassik etc/Stadtkapelle Hartberg - Deutschmeister Regimentsmarsch.wav", ",", "Historische Musik Klassik etc/Stadtkapelle Hartberg - Sonnenstadt marsch.wav", ",", "Popularmusik Div/26_0089_1DEZ17.wav", ",", "Popularmusik Div/30_0181_SUNRISE.wav", ",", "Popularmusik Div/35_0272_RITUAL_STARTPARTY.wav", ",", "Popularmusik Div/AIR - Moon Safari - Ce Matin La.wav", ",", "Popularmusik Div/AIR - Moon Safari - La Femme D_Argent.wav", ",", "Popularmusik Div/AIR - Moon Safari - New Star In The Sky.wav", ",", "Popularmusik Div/AIR - Premiers - Brakes On.wav", ",", "Popularmusik Div/AIR - Premiers - Californie.wav", ",", "Popularmusik Div/AIR - Premiers - J_ai Dormi Sous L_Eau.wav", ",", "Popularmusik Div/AIR - Premiers - Les Professionnels.wav", ",", "Popularmusik Div/AIR - Virgin Suicides - Playground Love.wav", ",", "Popularmusik Div/André Heller - Liebeslieder - Da Bin I Ka Liliputaner Mehr.wav", ",", "Popularmusik Div/André Heller - Liebeslieder - Das Lied vom idealen Park.wav", ",", "Popularmusik Div/André Heller - Liebeslieder - Du ungnädige Gnädige.wav", ",", "Popularmusik Div/André Heller - Liebeslieder - Du, du, du.wav", ",", "Popularmusik Div/André Heller - Liebeslieder - Ich Weiss Nicht, Zu Wem Ich Gehore.wav", ",", "Popularmusik Div/André Heller - Liebeslieder - Miramare.wav", ",", "Popularmusik Div/André Heller - Liebeslieder - Waast es eh.wav", ",", "Popularmusik Div/André Heller - Liebeslieder - Wie Mei Herzschlag.wav", ",", "Popularmusik Div/Oasis - Be Here Now - D_You Know What I Mean-.wav", ",", "Popularmusik Div/Sinéad O_Connor – I Want To Be Loved By You.wav", ",", "Popularmusik Div/Sinéad O_Connor – Love Letters.wav", ",", "Popularmusik Div/Sinéad O_Connor – Scarlett Ribbons.wav", ",", "Popularmusik Div/Sinéad O_Connor – Secret Love.wav", ",", "Popularmusik Div/Sinéad O_Connor – Why Don_t You Do Right-.wav", ",", "SHA. Transformationen Hörbeispiele/Raum Musik/02_0603_Airbells.wav", ",", "SHA. Transformationen Hörbeispiele/Raum Musik/03_0280_Breath.wav", ",", "SHA. Transformationen Hörbeispiele/Raum Musik/04_0557_Breathless.wav", ",", "SHA. Transformationen Hörbeispiele/Raum Musik/05_0727_Cosmic.wav", ",", "SHA. Transformationen Hörbeispiele/Raum Musik/06_0505_Crush.wav", ",", "SHA. Transformationen Hörbeispiele/Raum Musik/07_0582_Enigma.wav", ",", "SHA. Transformationen Hörbeispiele/Raum Musik/08_0353_Fly.wav", ",", "SHA. Transformationen Hörbeispiele/Raum Musik/09_0393_Ghost.wav", ",", "SHA. Transformationen Hörbeispiele/Raum Musik/10_0344_Glass.wav", ",", "SHA. Transformationen Hörbeispiele/Raum Musik/11_0479_Granular.wav", ",", "SHA. Transformationen Hörbeispiele/Raum Musik/12_0664_Icemallets.wav", ",", "SHA. Transformationen Hörbeispiele/Raum Musik/13_0384_Insects.wav", ",", "SHA. Transformationen Hörbeispiele/Raum Musik/14_0249_Outerland.wav", ",", "SHA. Transformationen Hörbeispiele/Raum Musik/15_0358_Pumping.wav", ",", "SHA. Transformationen Hörbeispiele/Raum Musik/16_0477_Shifting.wav", ",", "SHA. Transformationen Hörbeispiele/Raum Musik/17_0781_Sines.wav", ",", "SHA. Transformationen Hörbeispiele/Raum Musik/18_0567_Softbells.wav", ",", "SHA. Transformationen Hörbeispiele/Raum Musik/19_0379_Stutter.wav", ",", "SHA. Transformationen Hörbeispiele/Raum Musik/20_0378_Sunglitter.wav", ",", "SHA. Transformationen Hörbeispiele/Raum Musik/21_0380_Sunrise.wav", ",", "SHA. Transformationen Hörbeispiele/Raum Musik/22_0485_Swirling.wav", ",", "SHA. Transformationen Hörbeispiele/Raum Musik/23_0676_Voxbox.wav", ",", "SHA. Transformationen Hörbeispiele/Raum Musik/24_0268_Waver.wav", ",", "SHA. Transformationen Hörbeispiele/Raum Musik/25_0584_Wonder.wav", ",", "SHA. Transformationen Hörbeispiele/Stimmen Gottes CD4/1 Audiospur.wav", ",", "SHA. Transformationen Hörbeispiele/Stimmen Gottes CD4/2 Audiospur.wav", ",", "SHA. Transformationen Hörbeispiele/Stimmen Gottes CD4/3 Audiospur.wav", ",", "SHA. Transformationen Hörbeispiele/Stimmen Gottes CD4/4 Audiospur.wav", ",", "SHA. Transformationen Hörbeispiele/Stimmen Gottes CD4/5 Audiospur.wav", ",", "SHA. Transformationen Hörbeispiele/Stimmen Gottes CD4/6 Audiospur.wav", ",", "SHA. Transformationen Hörbeispiele/Stimmen Gottes CD4/7 Audiospur.wav", ",", "World Music Original etc. SHA Stimmen Gottes/01 Anon- In Paradisum.wav", ",", "World Music Original etc. SHA Stimmen Gottes/01 Goiserer.wav", ",", "World Music Original etc. SHA Stimmen Gottes/01 Naujaaluk.wav", ",", "World Music Original etc. SHA Stimmen Gottes/01 Zauerli.wav", ",", "World Music Original etc. SHA Stimmen Gottes/03 Eilu Devorim (Yaakov Rappoport).wav", ",", "World Music Original etc. SHA Stimmen Gottes/05 Mbaire (Busoga).wav", ",", "World Music Original etc. SHA Stimmen Gottes/08 Borbanngadyr.wav", ",", "World Music Original etc. SHA Stimmen Gottes/09 Anuriujaq.wav", ",", "World Music Original etc. SHA Stimmen Gottes/1 Audiospur.wav", ",", "World Music Original etc. SHA Stimmen Gottes/1 Tuva.wav", ",", "World Music Original etc. SHA Stimmen Gottes/1-01 babel1.wav", ",", "World Music Original etc. SHA Stimmen Gottes/1-02 babel2.wav", ",", "World Music Original etc. SHA Stimmen Gottes/1-04 babel3 1.wav", ",", "World Music Original etc. SHA Stimmen Gottes/1-10 babel4 1.wav", ",", "World Music Original etc. SHA Stimmen Gottes/10 Almquartett.wav", ",", "World Music Original etc. SHA Stimmen Gottes/10 Intertribal.wav", ",", "World Music Original etc. SHA Stimmen Gottes/10 Kafi.wav", ",", "World Music Original etc. SHA Stimmen Gottes/10 The Dagar Brothers India.wav", ",", "World Music Original etc. SHA Stimmen Gottes/11 Audiospur.wav", ",", "World Music Original etc. SHA Stimmen Gottes/11 Folk Melody Based On Raag Des.wav", ",", "World Music Original etc. SHA Stimmen Gottes/11 R.A.Ramamani.wav", ",", "World Music Original etc. SHA Stimmen Gottes/12 Black Umfolosi.wav", ",", "World Music Original etc. SHA Stimmen Gottes/13 Audiospur.wav", ",", "World Music Original etc. SHA Stimmen Gottes/14 Dqua-Iquia.wav", ",", "World Music Original etc. SHA Stimmen Gottes/14 Katatuarufituinak.wav", ",", "World Music Original etc. SHA Stimmen Gottes/14 Suzhou.wav", ",", "World Music Original etc. SHA Stimmen Gottes/15 Audiospur.wav", ",", "World Music Original etc. SHA Stimmen Gottes/15 Dona Rosa.wav", ",", "World Music Original etc. SHA Stimmen Gottes/15 The Awakening Lotus Flower.wav", ",", "World Music Original etc. SHA Stimmen Gottes/16 Allahaema Labeyk.wav", ",", "World Music Original etc. SHA Stimmen Gottes/16 Mu Min Xin Ge.wav", ",", "World Music Original etc. SHA Stimmen Gottes/18 Soron Bushi.wav", ",", "World Music Original etc. SHA Stimmen Gottes/19 Keshi No Hana.wav", ",", "World Music Original etc. SHA Stimmen Gottes/2 Audiospur.wav", ",", "World Music Original etc. SHA Stimmen Gottes/2 Konakkol.wav", ",", "World Music Original etc. SHA Stimmen Gottes/2 Tongoyo.wav", ",", "World Music Original etc. SHA Stimmen Gottes/20 Karibushi Kiriuta.wav", ",", "World Music Original etc. SHA Stimmen Gottes/21 Audiospur.wav", ",", "World Music Original etc. SHA Stimmen Gottes/3 Angelite.wav", ",", "World Music Original etc. SHA Stimmen Gottes/3 Audiospur.wav", ",", "World Music Original etc. SHA Stimmen Gottes/4 Sabri Brothers.wav", ",", "World Music Original etc. SHA Stimmen Gottes/6 Inuit Women.wav", ",", "World Music Original etc. SHA Stimmen Gottes/7 Black Umfolos.wav", ",", "World Music Original etc. SHA Stimmen Gottes/8 Nagmeh Esfahan.wav", ",", "World Music Original etc. SHA Stimmen Gottes/8 Shanmuga.wav", ",", "World Music Original etc. SHA Stimmen Gottes/9 Black Lodge Singers.wav", ",", "World Music Original etc. SHA Stimmen Gottes/Darwin Cyclone.wav", ",", "World Music Popu etc. African Angels/1 Sala Keba (Zaire).wav", ",", "World Music Popu etc. African Angels/10 Tchewata (Ethiopia).wav", ",", "World Music Popu etc. African Angels/12 Sizà (Burkina Faso).wav", ",", "World Music Popu etc. African Angels/2 Sallé (Zaire).wav", ",", "World Music Popu etc. African Angels/4 Forest Nativity (Cameroun).wav", ",", "World Music Popu etc. African Angels/8 Obiero (Kenya).wav" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -2978,7 +3093,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 511.0, 53.0, 279.0, 21.0 ],
 									"pattrmode" : 1,
-									"prefix" : "C:/AP_MAX/SHA.Quellmaterial_25-03-20/",
+									"prefix" : "~/Documents/material_2025-03-20_converted/",
 									"types" : [ "WAVE", "AIFF" ],
 									"varname" : "umenu[2]"
 								}
@@ -3151,7 +3266,7 @@
 
 											}
  ],
-										"originid" : "pat-1508"
+										"originid" : "pat-1952"
 									}
 ,
 									"patching_rect" : [ 1078.0, 80.0, 46.0, 21.0 ],
@@ -3232,7 +3347,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 285.0, 178.0, 138.0, 36.0 ],
 									"saved_object_attributes" : 									{
-										"client_rect" : [ 1057, 45, 1440, 407 ],
+										"client_rect" : [ 0, 57, 1920, 998 ],
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0,
 										"storage_rect" : [ 583, 69, 1034, 197 ]
@@ -3286,7 +3401,7 @@
 								"box" : 								{
 									"autopopulate" : 1,
 									"id" : "obj-20",
-									"items" : [ "becken1.0.m.max", ",", "becken1.0.max", ",", "becken1.1.m.max", ",", "becken1.1.max", ",", "becken1.2.max", ",", "becken1.3.max", ",", "becken1.4.max", ",", "becken1.5.max", ",", "becken1.5_m.max", ",", "becken4.5.max", ",", "becken4.5_m.max", ",", "bells-tibetan.0.max", ",", "bells-tibetan.1.max", ",", "bells-tibetan.2.max", ",", "bells-tibetan.3.max", ",", "bells-tibetan.4.max", ",", "bells-tibetan.5.max", ",", "clar_mult_2.0.max", ",", "clar_mult_2.1.max", ",", "clar_mult_2.2.max", ",", "clar_mult_2.3.max", ",", "clar_mult_2.4.max", ",", "clar_mult_2.5.max", ",", "conga_high.0.max", ",", "conga_high.1.max", ",", "conga_high.2.max", ",", "conga_high.3.max", ",", "conga_high.4.max", ",", "conga_high.5.max", ",", "mozartDG.0.max", ",", "mozartDG.1.max", ",", "mozartDG.2.max", ",", "mozartDG.3.max", ",", "mozartDG.4.max", ",", "mozartDG.5.max", ",", "my-preset" ],
+									"items" : [ "becken1.0", ",", "becken1.1", ",", "becken1.2", ",", "becken1.3", ",", "becken1.4", ",", "becken4.5", ",", "bells-tibetan0", ",", "bells-tibetan1", ",", "bells-tibetan2", ",", "bells-tibetan3", ",", "bells-tibetan4", ",", "bells-tibetan5", ",", "clar_mult_2.0", ",", "clar_mult_2.1", ",", "clar_mult_2.2", ",", "clar_mult_2.3", ",", "conga_high.0", ",", "conga_high.1", ",", "conga_high.2", ",", "conga_high.3", ",", "conga_high.4", ",", "mozartDG.0", ",", "mozartDG.1", ",", "mozartDG.2", ",", "mozartDG.3", ",", "mozartDG.5" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -3294,7 +3409,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 927.0, 46.0, 144.0, 22.0 ],
 									"pattrmode" : 1,
-									"prefix" : "C:/AP_MAX/reso-profiles/",
+									"prefix" : "~/Documents/AltePostAudio/reso_profiles/",
 									"types" : "TEXT"
 								}
 
@@ -3378,7 +3493,7 @@
 													"outlettype" : [ "", "int", "", "" ],
 													"parameter_enable" : 0,
 													"patching_rect" : [ 51.0, 175.0, 446.0, 35.0 ],
-													"text" : "C:/AP_MAX/reso-profiles/",
+													"text" : "C:/Users/SHA.ART/Documents/AltePostAudio/reso_profiles/",
 													"varname" : "reso-path"
 												}
 
@@ -3442,7 +3557,7 @@
 													"outlettype" : [ "", "", "", "" ],
 													"patching_rect" : [ 169.0, 130.0, 86.0, 22.0 ],
 													"restore" : 													{
-														"reso-path" : [ "C:/AP_MAX/reso-profiles/" ]
+														"reso-path" : [ "C:/Users/SHA.ART/Documents/AltePostAudio/reso_profiles/" ]
 													}
 ,
 													"text" : "autopattr",
@@ -3595,7 +3710,7 @@
 
 											}
  ],
-										"originid" : "pat-1510"
+										"originid" : "pat-1954"
 									}
 ,
 									"patching_rect" : [ 145.0, 45.0, 81.0, 22.0 ],
@@ -3826,7 +3941,7 @@
 													"outlettype" : [ "", "", "", "" ],
 													"patching_rect" : [ 175.0, 130.0, 86.0, 22.0 ],
 													"restore" : 													{
-														"snd-path" : [ "C:/AP_MAX/SHA.Quellmaterial_25-03-20/" ]
+														"snd-path" : [ "C:/Users/SHA.ART/Documents/material_2025-03-20_converted/" ]
 													}
 ,
 													"text" : "autopattr",
@@ -3856,7 +3971,7 @@
 													"outlettype" : [ "", "int", "", "" ],
 													"parameter_enable" : 0,
 													"patching_rect" : [ 51.0, 175.0, 446.0, 35.0 ],
-													"text" : "C:/AP_MAX/SHA.Quellmaterial_25-03-20/",
+													"text" : "C:/Users/SHA.ART/Documents/material_2025-03-20_converted/",
 													"varname" : "snd-path"
 												}
 
@@ -4056,7 +4171,7 @@
 
 											}
  ],
-										"originid" : "pat-1512"
+										"originid" : "pat-1956"
 									}
 ,
 									"patching_rect" : [ 9.0, 45.0, 84.0, 22.0 ],
@@ -4365,7 +4480,7 @@
 
 							}
  ],
-						"originid" : "pat-1502"
+						"originid" : "pat-1946"
 					}
 ,
 					"patching_rect" : [ 5.0, 183.0, 73.0, 25.0 ],
@@ -5514,7 +5629,7 @@
 
 											}
  ],
-										"originid" : "pat-1516"
+										"originid" : "pat-1962"
 									}
 ,
 									"patching_rect" : [ 377.0, 105.0, 79.0, 22.0 ],
@@ -5605,7 +5720,7 @@
 											}
  ],
 										"lines" : [  ],
-										"originid" : "pat-1518"
+										"originid" : "pat-1964"
 									}
 ,
 									"patching_rect" : [ 625.0, 144.0, 129.0, 23.0 ],
@@ -6375,7 +6490,7 @@
 
 											}
  ],
-										"originid" : "pat-1520"
+										"originid" : "pat-1966"
 									}
 ,
 									"patching_rect" : [ 216.0, 296.0, 125.0, 23.0 ],
@@ -6738,7 +6853,7 @@
 
 							}
  ],
-						"originid" : "pat-1514"
+						"originid" : "pat-1960"
 					}
 ,
 					"patching_rect" : [ 318.0, 479.0, 100.0, 22.0 ],
@@ -6930,6 +7045,10 @@
 					"preset_data" : [ 						{
 							"number" : 1,
 							"data" : [ 4, "obj-61", "crosspatch", "mark", 7, "obj-61", "crosspatch", "list", 0, 4, 1.0, 7, "obj-61", "crosspatch", "list", 3, 5, 1.0, 7, "obj-61", "crosspatch", "list", 4, 6, 1.0, 7, "obj-61", "crosspatch", "list", 6, 7, 1.0, 7, "obj-61", "crosspatch", "list", 8, 7, 1.0, 7, "obj-61", "crosspatch", "list", 0, 0, 1.0, 7, "obj-61", "crosspatch", "list", 0, 2, 1.0, 4, "obj-61", "crosspatch", "clearmarked", 5, "obj-80", "live.text", "float", 0.0 ]
+						}
+, 						{
+							"number" : 2,
+							"data" : [ 4, "obj-61", "crosspatch", "mark", 7, "obj-61", "crosspatch", "list", 3, 5, 1.0, 7, "obj-61", "crosspatch", "list", 4, 6, 1.0, 7, "obj-61", "crosspatch", "list", 0, 4, 1.0, 7, "obj-61", "crosspatch", "list", 0, 0, 1.0, 7, "obj-61", "crosspatch", "list", 0, 2, 1.0, 7, "obj-61", "crosspatch", "list", 1, 5, 1.0, 7, "obj-61", "crosspatch", "list", 1, 2, 1.0, 7, "obj-61", "crosspatch", "list", 6, 6, 1.0, 4, "obj-61", "crosspatch", "clearmarked", 5, "obj-80", "live.text", "float", 0.0 ]
 						}
  ]
 				}
@@ -7177,9 +7296,8 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 2596.0, 85.0, 1062.0, 651.0 ],
+						"rect" : [ 134.0, 134.0, 1062.0, 651.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-55",
@@ -7413,8 +7531,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 511.0, 490.0, 68.0, 31.0 ],
-									"text" : "1 2 3 4 5 6 7 8"
+									"patching_rect" : [ 511.0, 490.0, 103.0, 20.0 ],
+									"text" : "25 26 27 28 29 30 31 32"
 								}
 
 							}
@@ -7422,13 +7540,12 @@
 								"box" : 								{
 									"fontsize" : 10.0,
 									"id" : "obj-49",
-									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 361.0, 490.0, 68.0, 31.0 ],
-									"text" : "1 2 3 4 5 6 7 8"
+									"patching_rect" : [ 361.0, 490.0, 117.0, 20.0 ],
+									"text" : "17 18 19 20 21 22 23 24"
 								}
 
 							}
@@ -7436,13 +7553,12 @@
 								"box" : 								{
 									"fontsize" : 10.0,
 									"id" : "obj-47",
-									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 211.0, 490.0, 68.0, 31.0 ],
-									"text" : "1 2 3 4 5 6 7 8"
+									"patching_rect" : [ 211.0, 490.0, 111.0, 20.0 ],
+									"text" : "9 10 11 12 13 14 15 16"
 								}
 
 							}
@@ -8284,7 +8400,7 @@
 
 							}
  ],
-						"originid" : "pat-1526"
+						"originid" : "pat-1972"
 					}
 ,
 					"patching_rect" : [ 1329.069719910621643, 791.534882307052612, 256.0, 20.0 ],
@@ -8362,27 +8478,17 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 265.0, 10.0, 114.0, 20.0 ],
 					"restore" : 					{
-						"bus1" : [ -35.223787815996666 ],
-						"bus2" : [ -21.043721508495643 ],
-						"bus3" : [ 1.514297554910883 ],
-						"bus4" : [ -18.967467882304163 ],
+						"bus1" : [ -0.873205285323294 ],
+						"bus2" : [ -3.960008288437621 ],
+						"bus3" : [ -68.493896216808693 ],
+						"bus4" : [ -70.0 ],
 						"crosspatch" : [ 							{
 								"data" : 								{
 									"numins" : 11,
 									"numouts" : 8,
 									"connections" : [ 										{
-											"in" : 0,
-											"out" : 4,
-											"gain" : 1.0
-										}
-, 										{
-											"in" : 3,
-											"out" : 5,
-											"gain" : 1.0
-										}
-, 										{
 											"in" : 4,
-											"out" : 6,
+											"out" : 5,
 											"gain" : 1.0
 										}
 , 										{
@@ -8391,18 +8497,13 @@
 											"gain" : 1.0
 										}
 , 										{
-											"in" : 8,
-											"out" : 7,
-											"gain" : 1.0
-										}
-, 										{
-											"in" : 0,
+											"in" : 1,
 											"out" : 0,
 											"gain" : 1.0
 										}
 , 										{
-											"in" : 0,
-											"out" : 2,
+											"in" : 1,
+											"out" : 5,
 											"gain" : 1.0
 										}
  ]
@@ -8415,14 +8516,14 @@
 						"live.toggle[1]" : [ 1.0 ],
 						"live.toggle[2]" : [ 1.0 ],
 						"live.toggle[3]" : [ 1.0 ],
-						"number" : [ 36 ],
-						"number[1]" : [ 138 ],
-						"number[2]" : [ 87 ],
+						"number" : [ 26 ],
+						"number[1]" : [ 147 ],
+						"number[2]" : [ 77 ],
 						"showgain-cross" : [ 0.0 ],
 						"umenu[1]" : [ 0 ],
-						"umenu[2]" : [ 0 ],
-						"umenu[3]" : [ 0 ],
-						"umenu[4]" : [ 0 ]
+						"umenu[2]" : [ 1 ],
+						"umenu[3]" : [ 2 ],
+						"umenu[4]" : [ 3 ]
 					}
 ,
 					"text" : "autopattr @autoname 1",
@@ -8548,11 +8649,37 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 2561.0, 816.0, 1097.0, 534.0 ],
+						"rect" : [ 87.0, 109.0, 875.0, 325.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
 						"toolbars_unpinned_last_save" : 3,
-						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontsize" : 11.0,
+									"id" : "obj-11",
+									"linecount" : 2,
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "multichannelsignal" ],
+									"patching_rect" : [ 614.0, 78.5, 100.0, 34.0 ],
+									"text" : "mc.r~ A_rreso4 @chans 8"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontsize" : 11.0,
+									"id" : "obj-2",
+									"linecount" : 2,
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 170.0, 227.0, 92.0, 34.0 ],
+									"text" : "mc.s~ A_rreso.in @chans 8"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontsize" : 11.0,
 									"id" : "obj-33",
@@ -8570,12 +8697,12 @@
 								"box" : 								{
 									"fontsize" : 11.0,
 									"id" : "obj-31",
-									"linecount" : 3,
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "multichannelsignal" ],
-									"patching_rect" : [ 770.0, 76.5, 64.0, 46.0 ],
+									"patching_rect" : [ 770.0, 76.5, 97.0, 34.0 ],
 									"text" : "mc.r~ mc.am8_B @chans 8"
 								}
 
@@ -8589,7 +8716,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "multichannelsignal" ],
-									"patching_rect" : [ 587.0, 47.0, 100.0, 34.0 ],
+									"patching_rect" : [ 581.0, 33.0, 100.0, 34.0 ],
 									"text" : "mc.r~ mc.creso_B @chans 8"
 								}
 
@@ -8602,7 +8729,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 222.0, 194.0, 96.0, 34.0 ],
+									"patching_rect" : [ 354.199999999999989, 207.0, 96.0, 34.0 ],
 									"text" : "mc.s~ am8.inB @chans 8"
 								}
 
@@ -8615,7 +8742,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 116.272727272727266, 194.0, 92.0, 34.0 ],
+									"patching_rect" : [ 73.0, 193.0, 92.0, 34.0 ],
 									"text" : "mc.s~ creso.inB @chans 8"
 								}
 
@@ -8639,7 +8766,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1295.0, 54.0, 143.0, 20.0 ],
+									"patching_rect" : [ 894.0, 54.0, 143.0, 20.0 ],
 									"text" : "reserve"
 								}
 
@@ -8662,13 +8789,12 @@
 								"box" : 								{
 									"fontsize" : 11.0,
 									"id" : "obj-19",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "multichannelsignal" ],
-									"patching_rect" : [ 112.0, 89.0, 78.0, 34.0 ],
-									"text" : "mc.r~ B_sfpx @chans 8"
+									"patching_rect" : [ 120.875, 47.5, 130.0, 21.0 ],
+									"text" : "mc.r~ bp8_A1 @chans 8"
 								}
 
 							}
@@ -8737,7 +8863,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "multichannelsignal" ],
-									"patching_rect" : [ 638.0, 78.5, 95.0, 34.0 ],
+									"patching_rect" : [ 712.0, 25.0, 95.0, 34.0 ],
 									"text" : "mc.r~ mc.am8_A @chans 8"
 								}
 
@@ -8750,7 +8876,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 174.0, 238.0, 85.0, 34.0 ],
+									"patching_rect" : [ 286.0, 249.0, 85.0, 34.0 ],
 									"text" : "mc.s~ am8.inA @chans 8"
 								}
 
@@ -8763,7 +8889,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 579.0, 187.0, 68.0, 34.0 ],
+									"patching_rect" : [ 686.0, 211.0, 68.0, 34.0 ],
 									"text" : "mc.s~ bus4 @chans 8"
 								}
 
@@ -8775,7 +8901,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 1300.0, 187.0, 29.0, 22.0 ],
+									"patching_rect" : [ 899.0, 187.0, 29.0, 22.0 ],
 									"text" : "* 2"
 								}
 
@@ -8789,7 +8915,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1300.0, 144.0, 30.0, 30.0 ]
+									"patching_rect" : [ 899.0, 144.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -8800,7 +8926,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1300.0, 218.0, 78.0, 22.0 ],
+									"patching_rect" : [ 899.0, 218.0, 78.0, 22.0 ],
 									"text" : "showgain $1"
 								}
 
@@ -8813,7 +8939,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1300.0, 247.0, 30.0, 30.0 ]
+									"patching_rect" : [ 899.0, 247.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -8838,7 +8964,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 498.0, 187.0, 68.0, 34.0 ],
+									"patching_rect" : [ 591.0, 211.0, 68.0, 34.0 ],
 									"text" : "mc.s~ bus3 @chans 8"
 								}
 
@@ -8851,7 +8977,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 416.0, 187.0, 68.0, 34.0 ],
+									"patching_rect" : [ 487.0, 207.0, 68.0, 34.0 ],
 									"text" : "mc.s~ bus2 @chans 8"
 								}
 
@@ -8864,7 +8990,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 334.0, 187.0, 68.0, 34.0 ],
+									"patching_rect" : [ 457.0, 227.0, 68.0, 34.0 ],
 									"text" : "mc.s~ bus1 @chans 8"
 								}
 
@@ -8877,7 +9003,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "multichannelsignal" ],
-									"patching_rect" : [ 1295.0, 89.0, 143.0, 21.0 ],
+									"patching_rect" : [ 894.0, 89.0, 143.0, 21.0 ],
 									"text" : "mc.r~ mc.loopx8 @chans 8"
 								}
 
@@ -8886,11 +9012,11 @@
 								"box" : 								{
 									"id" : "obj-8",
 									"maxclass" : "newobj",
-									"numinlets" : 10,
-									"numoutlets" : 10,
-									"outlettype" : [ "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "", "" ],
-									"patching_rect" : [ 47.0, 148.0, 683.875, 22.0 ],
-									"text" : "mc.matrix~ 10 8 1. @ramp 100"
+									"numinlets" : 11,
+									"numoutlets" : 11,
+									"outlettype" : [ "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "", "" ],
+									"patching_rect" : [ 47.0, 148.0, 787.0, 22.0 ],
+									"text" : "mc.matrix~ 11 9 1. @ramp 100"
 								}
 
 							}
@@ -8912,6 +9038,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-8", 2 ],
 									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-8", 8 ],
+									"source" : [ "obj-11", 0 ]
 								}
 
 							}
@@ -8973,14 +9106,14 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-8", 8 ],
+									"destination" : [ "obj-8", 9 ],
 									"source" : [ "obj-28", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-8", 9 ],
+									"destination" : [ "obj-8", 10 ],
 									"source" : [ "obj-31", 0 ]
 								}
 
@@ -9015,22 +9148,29 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-22", 0 ],
-									"source" : [ "obj-8", 7 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-27", 0 ],
+									"destination" : [ "obj-2", 0 ],
 									"source" : [ "obj-8", 2 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-29", 0 ],
+									"destination" : [ "obj-22", 0 ],
+									"source" : [ "obj-8", 8 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-27", 0 ],
 									"source" : [ "obj-8", 3 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-29", 0 ],
+									"source" : [ "obj-8", 4 ]
 								}
 
 							}
@@ -9044,21 +9184,21 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-5", 0 ],
-									"source" : [ "obj-8", 5 ]
+									"source" : [ "obj-8", 6 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-6", 0 ],
-									"source" : [ "obj-8", 4 ]
+									"source" : [ "obj-8", 5 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-7", 0 ],
-									"source" : [ "obj-8", 6 ]
+									"source" : [ "obj-8", 7 ]
 								}
 
 							}
@@ -9070,7 +9210,7 @@
 
 							}
  ],
-						"originid" : "pat-1882"
+						"originid" : "pat-2326"
 					}
 ,
 					"patching_rect" : [ 95.0, 504.0, 62.0, 22.0 ],
@@ -9088,18 +9228,8 @@
 					"candycane3" : [ 0.686274509803922, 0.282352941176471, 0.556862745098039, 1.0 ],
 					"candycane4" : [ 0.227450980392157, 0.388235294117647, 0.701960784313725, 1.0 ],
 					"connections" : [ 						{
-							"in" : 0,
-							"out" : 4,
-							"gain" : 1.0
-						}
-, 						{
-							"in" : 3,
-							"out" : 5,
-							"gain" : 1.0
-						}
-, 						{
 							"in" : 4,
-							"out" : 6,
+							"out" : 5,
 							"gain" : 1.0
 						}
 , 						{
@@ -9108,18 +9238,13 @@
 							"gain" : 1.0
 						}
 , 						{
-							"in" : 8,
-							"out" : 7,
-							"gain" : 1.0
-						}
-, 						{
-							"in" : 0,
+							"in" : 1,
 							"out" : 0,
 							"gain" : 1.0
 						}
 , 						{
-							"in" : 0,
-							"out" : 2,
+							"in" : 1,
+							"out" : 5,
 							"gain" : 1.0
 						}
  ],
@@ -9132,9 +9257,9 @@
 					"gainradius" : 8.0,
 					"id" : "obj-61",
 					"incolormap" : "none",
-					"inlabels" : [ "A.sfp", "B.sfp", "A1.grain8", "A2.grain8", "A.paulx", "B.paulx", "mc.creso_A", "mc.creso_B", "mc.am8_A", "mc.am8_B" ],
-					"labelheight" : 17.0,
-					"labelwidth" : 65.0,
+					"inlabels" : [ "A.sfp", "B.sfp", "A1.grain8", "A2.grain8", "A.paulx", "B.paulx", "mc.creso_A", "mc.creso_B", "mc.rreso_A", "mc.am8_A", "mc.am8_B" ],
+					"labelheight" : 19.0,
+					"labelwidth" : 64.0,
 					"linecolor" : [ 0.741176470588235, 0.392156862745098, 0.294117647058824, 1.0 ],
 					"maxclass" : "crosspatch",
 					"maxgain" : 2.0,
@@ -9143,12 +9268,12 @@
 					"numoutlets" : 2,
 					"numouts" : 8,
 					"outcolormap" : "none",
-					"outlabels" : [ "creso.inA", "creso.inB", "am8.inA", "am8.inB", "bus1", "bus2", "bus3", "bus4" ],
+					"outlabels" : [ "creso.inA", "creso.inB", "rreso.inA", "am8.inA", "am8.inB", "bus1", "bus2", "bus3", "bus4" ],
 					"outlettype" : [ "", "dictionary" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 5.0, 309.0, 230.0, 233.0 ],
+					"patching_rect" : [ 16.0, 274.0, 228.0, 240.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 834.0, 14.0, 323.0, 232.0 ],
+					"presentation_rect" : [ 830.0, 16.0, 323.0, 232.0 ],
 					"showgain" : 0,
 					"textcolor" : [ 0.76078431372549, 0.76078431372549, 0.76078431372549, 1.0 ],
 					"varname" : "crosspatch"
@@ -9566,7 +9691,7 @@
 
 			}
  ],
-		"originid" : "pat-743",
+		"originid" : "pat-785",
 		"parameters" : 		{
 			"obj-1" : [ "live.button[149]", "live.button[149]", 0 ],
 			"obj-11" : [ "live.button[145]", "live.button[145]", 0 ],
@@ -9928,6 +10053,7 @@
 			"obj-33::obj-1::obj-79" : [ "live.text[219]", "live.text", 0 ],
 			"obj-3::obj-24" : [ "inp-bus1[6]", "inp-bus1", 0 ],
 			"obj-3::obj-3" : [ "live.menu[13]", "live.menu", 0 ],
+			"obj-43::obj-7" : [ "live.menu[18]", "live.menu", 0 ],
 			"obj-4::obj-24" : [ "inp-bus1[5]", "inp-bus1", 0 ],
 			"obj-4::obj-3" : [ "live.menu[10]", "live.menu", 0 ],
 			"obj-51::obj-107" : [ "live.text[223]", "live.text", 0 ],
@@ -10011,11 +10137,57 @@
 			"obj-51::obj-67" : [ "live.toggle[27]", "live.toggle", 0 ],
 			"obj-51::obj-91" : [ "live.text[218]", "live.text", 0 ],
 			"obj-51::obj-94" : [ "live.text[222]", "live.text", 0 ],
+			"obj-52::obj-100" : [ "del1", "del1", 0 ],
+			"obj-52::obj-108" : [ "mfreqscale", "mf.scale", 0 ],
+			"obj-52::obj-111" : [ "mfreqadd", "mf.add", 0 ],
+			"obj-52::obj-112" : [ "mratescale", "mrscale", 0 ],
+			"obj-52::obj-115" : [ "live.toggle[26]", "live.text[3]", 0 ],
+			"obj-52::obj-116" : [ "live.text[215]", "live.text", 0 ],
+			"obj-52::obj-119" : [ "live.text[214]", "live.text", 0 ],
+			"obj-52::obj-132::obj-132" : [ "live.tab[1]", "live.tab[1]", 0 ],
+			"obj-52::obj-132::obj-47" : [ "sawvol", "saw", 0 ],
+			"obj-52::obj-132::obj-68" : [ "noisevol", "noise", 0 ],
+			"obj-52::obj-132::obj-70" : [ "exp", "exp", 0 ],
+			"obj-52::obj-132::obj-84" : [ "live.tab[2]", "live.tab[1]", 0 ],
+			"obj-52::obj-134::obj-141" : [ "live.button[146]", "live.button", 0 ],
+			"obj-52::obj-136" : [ "live.button[147]", "live.button", 0 ],
+			"obj-52::obj-22" : [ "freqadd1", "f.add1", 0 ],
+			"obj-52::obj-25" : [ "ratescale1", "ratescale1", 0 ],
+			"obj-52::obj-39" : [ "live.text[225]", "live.text", 0 ],
+			"obj-52::obj-40::obj-104" : [ "onfade", "onfade", 0 ],
+			"obj-52::obj-40::obj-116" : [ "live.text[151]", "live.text", 0 ],
+			"obj-52::obj-40::obj-119" : [ "live.text[150]", "live.text", 0 ],
+			"obj-52::obj-40::obj-141" : [ "live.button[148]", "live.button", 0 ],
+			"obj-52::obj-40::obj-85" : [ "live.text[216]", "live.text", 0 ],
+			"obj-52::obj-42" : [ "freqscale2", "f.scale2", 0 ],
+			"obj-52::obj-44" : [ "gain4", "gain4", 0 ],
+			"obj-52::obj-45" : [ "freqadd2", "f.add", 0 ],
+			"obj-52::obj-46" : [ "gain3", "gain3", 0 ],
+			"obj-52::obj-48" : [ "gain2", "gain2", 0 ],
+			"obj-52::obj-49" : [ "gain1", "gain1", 0 ],
+			"obj-52::obj-52" : [ "ratescale2", "ratescale2", 0 ],
+			"obj-52::obj-56" : [ "live.tab[3]", "live.tab", 0 ],
+			"obj-52::obj-64" : [ "freqscale1", "fscale1", 0 ],
+			"obj-52::obj-65" : [ "freqscale3", "f.scale3", 0 ],
+			"obj-52::obj-66" : [ "dry / wet", "mix", 0 ],
+			"obj-52::obj-68" : [ "mgain", "mgain", 0 ],
+			"obj-52::obj-69" : [ "vol[2]", "vol", 0 ],
+			"obj-52::obj-71" : [ "freqadd3", "f.add3", 0 ],
+			"obj-52::obj-72" : [ "ratescale3", "ratescale3", 0 ],
+			"obj-52::obj-74" : [ "freqscale4", "f.scale4", 0 ],
+			"obj-52::obj-75" : [ "live.drop[1]", "live.drop", 0 ],
+			"obj-52::obj-77" : [ "freqadd4", "f.add4", 0 ],
+			"obj-52::obj-78" : [ "ratescale4", "ratescale4", 0 ],
+			"obj-52::obj-9" : [ "inp.delay[4]", "delglide", 0 ],
+			"obj-52::obj-95" : [ "del4", "del4", 0 ],
+			"obj-52::obj-96" : [ "del3", "del3", 0 ],
+			"obj-52::obj-98" : [ "del2", "del2", 0 ],
 			"obj-54::obj-12" : [ "live.text[51]", "live.text", 0 ],
 			"obj-55::obj-59" : [ "HF[2]", "HF", 0 ],
 			"obj-55::obj-60" : [ "LF[2]", "LF", 0 ],
 			"obj-55::obj-65" : [ "HG[2]", "HG", 0 ],
 			"obj-55::obj-67" : [ "LG[2]", "LG", 0 ],
+			"obj-5::obj-7" : [ "live.menu", "live.menu", 0 ],
 			"obj-65::obj-10::obj-9" : [ "live.slider[2]", "live.slider", 0 ],
 			"obj-65::obj-11" : [ "amt[1]", "amt", 0 ],
 			"obj-65::obj-110::obj-17" : [ "live.text[70]", "live.text", 0 ],
@@ -10115,6 +10287,181 @@
 			"obj-65::obj-92::obj-79" : [ "numease2[31]", "numease2", 0 ],
 			"obj-65::obj-92::obj-8" : [ "numinc1[28]", "numinc1", 0 ],
 			"obj-65::obj-92::obj-80" : [ "numease1[28]", "numease1", 0 ],
+			"obj-68::obj-111" : [ "live.numbox[3]", "live.numbox", 0 ],
+			"obj-68::obj-144::obj-19" : [ "live.toggle[29]", "live.toggle", 0 ],
+			"obj-68::obj-144::obj-22" : [ "BF[1]", "BF", 0 ],
+			"obj-68::obj-144::obj-24" : [ "BG[1]", "BG", 0 ],
+			"obj-68::obj-144::obj-25" : [ "BQ[1]", "BQ", 0 ],
+			"obj-68::obj-144::obj-27" : [ "LQ", "LQ", 0 ],
+			"obj-68::obj-144::obj-28" : [ "LG[3]", "LG", 0 ],
+			"obj-68::obj-144::obj-37" : [ "LF[3]", "LF", 0 ],
+			"obj-68::obj-144::obj-47" : [ "HQ", "HQ", 0 ],
+			"obj-68::obj-144::obj-48" : [ "HG[3]", "HG", 0 ],
+			"obj-68::obj-144::obj-52" : [ "HF[3]", "HF", 0 ],
+			"obj-68::obj-150::obj-12" : [ "live.tab", "live.tab", 0 ],
+			"obj-68::obj-150::obj-82" : [ "live.button[20]", "live.button", 0 ],
+			"obj-68::obj-151::obj-11::obj-13" : [ "umenu[1]", "umenu[2]", 0 ],
+			"obj-68::obj-151::obj-11::obj-14" : [ "ubutton[1]", "ubutton", 0 ],
+			"obj-68::obj-151::obj-11::obj-32" : [ "numdev1[1]", "numdev1", 0 ],
+			"obj-68::obj-151::obj-11::obj-62" : [ "numdev2[1]", "numdev2", 0 ],
+			"obj-68::obj-151::obj-11::obj-69" : [ "numexp2[1]", "numexp2", 0 ],
+			"obj-68::obj-151::obj-11::obj-7" : [ "numinc2[1]", "numinc2", 0 ],
+			"obj-68::obj-151::obj-11::obj-70" : [ "numexp1[1]", "numexp1", 0 ],
+			"obj-68::obj-151::obj-11::obj-71" : [ "numscalexp2[1]", "numscalexp2", 0 ],
+			"obj-68::obj-151::obj-11::obj-72" : [ "numscalexp1[1]", "numscalexp1", 0 ],
+			"obj-68::obj-151::obj-11::obj-73" : [ "numharm2[1]", "numspread2", 0 ],
+			"obj-68::obj-151::obj-11::obj-74" : [ "numharm1[1]", "numspread1", 0 ],
+			"obj-68::obj-151::obj-11::obj-75" : [ "numsubharm2[1]", "numsubharm2", 0 ],
+			"obj-68::obj-151::obj-11::obj-76" : [ "numsubharm1[1]", "numsubharm1", 0 ],
+			"obj-68::obj-151::obj-11::obj-77" : [ "numspread2[1]", "numspread2", 0 ],
+			"obj-68::obj-151::obj-11::obj-78" : [ "numspread1[1]", "numspread1", 0 ],
+			"obj-68::obj-151::obj-11::obj-8" : [ "numinc1[1]", "numinc1", 0 ],
+			"obj-68::obj-151::obj-38" : [ "live.button[208]", "live.button[22]", 0 ],
+			"obj-68::obj-151::obj-52" : [ "mod-on", "mod-on", 0 ],
+			"obj-68::obj-151::obj-53" : [ "sr-mix", "sr-mix", 0 ],
+			"obj-68::obj-16" : [ "live.toggle[30]", "live.toggle", 0 ],
+			"obj-68::obj-160::obj-9" : [ "live.numbox[4]", "live.numbox", 0 ],
+			"obj-68::obj-167::obj-106" : [ "live.text[10]", "live.text[213]", 0 ],
+			"obj-68::obj-167::obj-11" : [ "env-on", "env-on", 0 ],
+			"obj-68::obj-167::obj-125" : [ "live.button[16]", "live.button[2]", 0 ],
+			"obj-68::obj-167::obj-129" : [ "dezoomy", "dezoomy", 0 ],
+			"obj-68::obj-167::obj-134" : [ "dezoomx", "dezoomx", 0 ],
+			"obj-68::obj-167::obj-19" : [ "amt[12]", "gain", 0 ],
+			"obj-68::obj-167::obj-25" : [ "live.text[35]", "live.text", 0 ],
+			"obj-68::obj-167::obj-27" : [ "live.text[5]", "live.text", 0 ],
+			"obj-68::obj-167::obj-33" : [ "live.button[11]", "live.button[2]", 0 ],
+			"obj-68::obj-167::obj-47" : [ "live.button[15]", "live.button[2]", 0 ],
+			"obj-68::obj-167::obj-49" : [ "live.button[18]", "live.button[2]", 0 ],
+			"obj-68::obj-167::obj-58" : [ "live.button[13]", "live.button[2]", 0 ],
+			"obj-68::obj-167::obj-60" : [ "live.button[14]", "live.button[2]", 0 ],
+			"obj-68::obj-167::obj-63" : [ "live.text[251]", "live.text", 0 ],
+			"obj-68::obj-167::obj-67" : [ "amt[2]", "gain", 0 ],
+			"obj-68::obj-167::obj-82" : [ "live.button[17]", "live.button", 0 ],
+			"obj-68::obj-167::obj-91" : [ "amt", "gain", 0 ],
+			"obj-68::obj-169" : [ "live.text[253]", "live.text", 0 ],
+			"obj-68::obj-170" : [ "live.text[252]", "live.text", 0 ],
+			"obj-68::obj-18" : [ "gain", "gain", 0 ],
+			"obj-68::obj-184" : [ "live.button[199]", "live.button", 0 ],
+			"obj-68::obj-188" : [ "live.slider[14]", "live.slider", 0 ],
+			"obj-68::obj-189::obj-9" : [ "live.slider[13]", "live.slider", 0 ],
+			"obj-68::obj-20" : [ "live.button[38]", "live.button", 0 ],
+			"obj-68::obj-208::obj-38::obj-53" : [ "pit-envsw", "pit-envsw", 0 ],
+			"obj-68::obj-214::obj-102" : [ "live.button[21]", "live.button[2]", 0 ],
+			"obj-68::obj-214::obj-104" : [ "live.button[5]", "live.button[2]", 0 ],
+			"obj-68::obj-214::obj-11" : [ "env-on[1]", "env-on", 0 ],
+			"obj-68::obj-214::obj-114" : [ "live.text[15]", "live.text", 0 ],
+			"obj-68::obj-214::obj-121" : [ "amt[4]", "gain", 0 ],
+			"obj-68::obj-214::obj-125" : [ "live.button[9]", "live.button[2]", 0 ],
+			"obj-68::obj-214::obj-128" : [ "live.button[214]", "live.button[2]", 0 ],
+			"obj-68::obj-214::obj-129" : [ "dezoomy[1]", "dezoomy", 0 ],
+			"obj-68::obj-214::obj-132" : [ "live.button[32]", "live.button[2]", 0 ],
+			"obj-68::obj-214::obj-134" : [ "dezoomx[1]", "dezoomx", 0 ],
+			"obj-68::obj-214::obj-137" : [ "live.text[11]", "live.text", 0 ],
+			"obj-68::obj-214::obj-141" : [ "amt[5]", "gain", 0 ],
+			"obj-68::obj-214::obj-146" : [ "live.button[33]", "live.button[2]", 0 ],
+			"obj-68::obj-214::obj-148" : [ "live.button[212]", "live.button[2]", 0 ],
+			"obj-68::obj-214::obj-151" : [ "live.text[36]", "live.text", 0 ],
+			"obj-68::obj-214::obj-155" : [ "amt[6]", "gain", 0 ],
+			"obj-68::obj-214::obj-162" : [ "live.button[19]", "live.button[2]", 0 ],
+			"obj-68::obj-214::obj-164" : [ "live.button[31]", "live.button[2]", 0 ],
+			"obj-68::obj-214::obj-167" : [ "live.text[9]", "live.text", 0 ],
+			"obj-68::obj-214::obj-171" : [ "amt[7]", "gain", 0 ],
+			"obj-68::obj-214::obj-176" : [ "live.button[213]", "live.button[2]", 0 ],
+			"obj-68::obj-214::obj-178" : [ "live.button[211]", "live.button[2]", 0 ],
+			"obj-68::obj-214::obj-181" : [ "live.text[14]", "live.text", 0 ],
+			"obj-68::obj-214::obj-185" : [ "amt[8]", "gain", 0 ],
+			"obj-68::obj-214::obj-19" : [ "amt[18]", "gain", 0 ],
+			"obj-68::obj-214::obj-190" : [ "live.button[23]", "live.button[2]", 0 ],
+			"obj-68::obj-214::obj-192" : [ "live.button[24]", "live.button[2]", 0 ],
+			"obj-68::obj-214::obj-195" : [ "live.text[52]", "live.text", 0 ],
+			"obj-68::obj-214::obj-199" : [ "amt[9]", "gain", 0 ],
+			"obj-68::obj-214::obj-204" : [ "live.button[25]", "live.button[2]", 0 ],
+			"obj-68::obj-214::obj-206" : [ "live.button[26]", "live.button[2]", 0 ],
+			"obj-68::obj-214::obj-209" : [ "live.text[12]", "live.text", 0 ],
+			"obj-68::obj-214::obj-213" : [ "amt[10]", "gain", 0 ],
+			"obj-68::obj-214::obj-218" : [ "live.button[27]", "live.button[2]", 0 ],
+			"obj-68::obj-214::obj-220" : [ "live.button[28]", "live.button[2]", 0 ],
+			"obj-68::obj-214::obj-223" : [ "live.text[13]", "live.text", 0 ],
+			"obj-68::obj-214::obj-227" : [ "amt[11]", "gain", 0 ],
+			"obj-68::obj-214::obj-232" : [ "live.button[29]", "live.button[2]", 0 ],
+			"obj-68::obj-214::obj-234" : [ "live.button[30]", "live.button[2]", 0 ],
+			"obj-68::obj-214::obj-237" : [ "live.text[54]", "live.text", 0 ],
+			"obj-68::obj-214::obj-241" : [ "amt[15]", "gain", 0 ],
+			"obj-68::obj-214::obj-25" : [ "live.text[2]", "live.text", 0 ],
+			"obj-68::obj-214::obj-26" : [ "live.button[210]", "live.button[2]", 0 ],
+			"obj-68::obj-214::obj-27" : [ "live.text[3]", "live.text", 0 ],
+			"obj-68::obj-214::obj-33" : [ "live.button[6]", "live.button[2]", 0 ],
+			"obj-68::obj-214::obj-36" : [ "live.button[12]", "live.button[2]", 0 ],
+			"obj-68::obj-214::obj-45" : [ "live.text[53]", "live.text", 0 ],
+			"obj-68::obj-214::obj-47" : [ "live.button[7]", "live.button[2]", 0 ],
+			"obj-68::obj-214::obj-49" : [ "live.button[8]", "live.button[2]", 0 ],
+			"obj-68::obj-214::obj-54" : [ "amt[3]", "gain", 0 ],
+			"obj-68::obj-214::obj-58" : [ "live.button[22]", "live.button[2]", 0 ],
+			"obj-68::obj-214::obj-60" : [ "live.button[10]", "live.button[2]", 0 ],
+			"obj-68::obj-214::obj-63" : [ "live.text[4]", "live.text", 0 ],
+			"obj-68::obj-214::obj-67" : [ "amt[17]", "gain", 0 ],
+			"obj-68::obj-214::obj-82" : [ "live.button[209]", "live.button", 0 ],
+			"obj-68::obj-214::obj-91" : [ "amt[16]", "gain", 0 ],
+			"obj-68::obj-22::obj-11::obj-13" : [ "umenu[11]", "umenu[2]", 0 ],
+			"obj-68::obj-22::obj-11::obj-14" : [ "ubutton[24]", "ubutton", 0 ],
+			"obj-68::obj-22::obj-11::obj-32" : [ "numdev1[33]", "numdev1", 0 ],
+			"obj-68::obj-22::obj-11::obj-62" : [ "numdev2[16]", "numdev2", 0 ],
+			"obj-68::obj-22::obj-11::obj-69" : [ "numexp2[2]", "numexp2", 0 ],
+			"obj-68::obj-22::obj-11::obj-7" : [ "numinc2[33]", "numinc2", 0 ],
+			"obj-68::obj-22::obj-11::obj-70" : [ "numexp1[22]", "numexp1", 0 ],
+			"obj-68::obj-22::obj-11::obj-71" : [ "numscalexp2[33]", "numscalexp2", 0 ],
+			"obj-68::obj-22::obj-11::obj-72" : [ "numscalexp1[15]", "numscalexp1", 0 ],
+			"obj-68::obj-22::obj-11::obj-73" : [ "numharm2[22]", "numspread2", 0 ],
+			"obj-68::obj-22::obj-11::obj-74" : [ "numharm1[2]", "numspread1", 0 ],
+			"obj-68::obj-22::obj-11::obj-75" : [ "numsubharm2[16]", "numsubharm2", 0 ],
+			"obj-68::obj-22::obj-11::obj-76" : [ "numsubharm1[33]", "numsubharm1", 0 ],
+			"obj-68::obj-22::obj-11::obj-77" : [ "numspread2[2]", "numspread2", 0 ],
+			"obj-68::obj-22::obj-11::obj-78" : [ "numspread1[21]", "numspread1", 0 ],
+			"obj-68::obj-22::obj-11::obj-8" : [ "numinc1[15]", "numinc1", 0 ],
+			"obj-68::obj-22::obj-38" : [ "pos-envsw", "pos-envsw", 0 ],
+			"obj-68::obj-22::obj-39::obj-13" : [ "umenu[15]", "umenu[2]", 0 ],
+			"obj-68::obj-22::obj-39::obj-14" : [ "ubutton[25]", "ubutton", 0 ],
+			"obj-68::obj-22::obj-39::obj-32" : [ "numdev1[35]", "numdev1", 0 ],
+			"obj-68::obj-22::obj-39::obj-62" : [ "numdev2[18]", "numdev2", 0 ],
+			"obj-68::obj-22::obj-39::obj-69" : [ "numexp2[9]", "numexp2", 0 ],
+			"obj-68::obj-22::obj-39::obj-7" : [ "numinc2[35]", "numinc2", 0 ],
+			"obj-68::obj-22::obj-39::obj-70" : [ "numexp1[24]", "numexp1", 0 ],
+			"obj-68::obj-22::obj-39::obj-71" : [ "numscalexp2[35]", "numscalexp2", 0 ],
+			"obj-68::obj-22::obj-39::obj-72" : [ "numscalexp1[17]", "numscalexp1", 0 ],
+			"obj-68::obj-22::obj-39::obj-73" : [ "numharm2[24]", "numspread2", 0 ],
+			"obj-68::obj-22::obj-39::obj-74" : [ "numharm1[8]", "numspread1", 0 ],
+			"obj-68::obj-22::obj-39::obj-75" : [ "numsubharm2[18]", "numsubharm2", 0 ],
+			"obj-68::obj-22::obj-39::obj-76" : [ "numsubharm1[35]", "numsubharm1", 0 ],
+			"obj-68::obj-22::obj-39::obj-77" : [ "numspread2[8]", "numspread2", 0 ],
+			"obj-68::obj-22::obj-39::obj-78" : [ "numspread1[26]", "numspread1", 0 ],
+			"obj-68::obj-22::obj-39::obj-8" : [ "numinc1[17]", "numinc1", 0 ],
+			"obj-68::obj-22::obj-3::obj-13" : [ "umenu[12]", "umenu[2]", 0 ],
+			"obj-68::obj-22::obj-3::obj-14" : [ "ubutton[22]", "ubutton", 0 ],
+			"obj-68::obj-22::obj-3::obj-32" : [ "numdev1[34]", "numdev1", 0 ],
+			"obj-68::obj-22::obj-3::obj-62" : [ "numdev2[17]", "numdev2", 0 ],
+			"obj-68::obj-22::obj-3::obj-69" : [ "numexp2[8]", "numexp2", 0 ],
+			"obj-68::obj-22::obj-3::obj-7" : [ "numinc2[34]", "numinc2", 0 ],
+			"obj-68::obj-22::obj-3::obj-70" : [ "numexp1[23]", "numexp1", 0 ],
+			"obj-68::obj-22::obj-3::obj-71" : [ "numscalexp2[34]", "numscalexp2", 0 ],
+			"obj-68::obj-22::obj-3::obj-72" : [ "numscalexp1[16]", "numscalexp1", 0 ],
+			"obj-68::obj-22::obj-3::obj-73" : [ "numharm2[23]", "numspread2", 0 ],
+			"obj-68::obj-22::obj-3::obj-74" : [ "numharm1[3]", "numspread1", 0 ],
+			"obj-68::obj-22::obj-3::obj-75" : [ "numsubharm2[17]", "numsubharm2", 0 ],
+			"obj-68::obj-22::obj-3::obj-76" : [ "numsubharm1[34]", "numsubharm1", 0 ],
+			"obj-68::obj-22::obj-3::obj-77" : [ "numspread2[3]", "numspread2", 0 ],
+			"obj-68::obj-22::obj-3::obj-78" : [ "numspread1[22]", "numspread1", 0 ],
+			"obj-68::obj-22::obj-3::obj-8" : [ "numinc1[16]", "numinc1", 0 ],
+			"obj-68::obj-22::obj-53" : [ "pit-envsw[1]", "pit-envsw", 0 ],
+			"obj-68::obj-3" : [ "live.numbox[13]", "live.numbox", 0 ],
+			"obj-68::obj-32::obj-11" : [ "umenu[16]", "umenu", 0 ],
+			"obj-68::obj-51::obj-11" : [ "live.text[16]", "live.text[213]", 0 ],
+			"obj-68::obj-58" : [ "live.numbox[5]", "live.numbox", 0 ],
+			"obj-68::obj-59" : [ "live.numbox[2]", "live.numbox", 0 ],
+			"obj-68::obj-6" : [ "start0", "start0", 0 ],
+			"obj-68::obj-75" : [ "play-mode", "play-mode", 0 ],
+			"obj-68::obj-8" : [ "live.numbox[1]", "live.numbox", 0 ],
+			"obj-68::obj-89" : [ "live.toggle[2]", "live.text[3]", 0 ],
+			"obj-72::obj-12" : [ "live.text[55]", "live.text", 0 ],
 			"obj-80" : [ "showgain", "showgain", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
@@ -10744,6 +11091,10 @@
 					"parameter_longname" : "live.menu[13]"
 				}
 ,
+				"obj-43::obj-7" : 				{
+					"parameter_longname" : "live.menu[18]"
+				}
+,
 				"obj-4::obj-24" : 				{
 					"parameter_longname" : "inp-bus1[5]"
 				}
@@ -10820,8 +11171,160 @@
 					"parameter_longname" : "live.text[222]"
 				}
 ,
+				"obj-52::obj-39" : 				{
+					"parameter_longname" : "live.text[225]"
+				}
+,
+				"obj-52::obj-40::obj-116" : 				{
+					"parameter_longname" : "live.text[151]"
+				}
+,
+				"obj-52::obj-40::obj-119" : 				{
+					"parameter_longname" : "live.text[150]"
+				}
+,
+				"obj-52::obj-56" : 				{
+					"parameter_longname" : "live.tab[3]"
+				}
+,
 				"obj-65::obj-37" : 				{
 					"parameter_longname" : "0_am2-delon"
+				}
+,
+				"obj-68::obj-144::obj-19" : 				{
+					"parameter_longname" : "live.toggle[29]"
+				}
+,
+				"obj-68::obj-144::obj-22" : 				{
+					"parameter_longname" : "BF[1]"
+				}
+,
+				"obj-68::obj-144::obj-24" : 				{
+					"parameter_longname" : "BG[1]"
+				}
+,
+				"obj-68::obj-144::obj-25" : 				{
+					"parameter_longname" : "BQ[1]"
+				}
+,
+				"obj-68::obj-144::obj-28" : 				{
+					"parameter_longname" : "LG[3]"
+				}
+,
+				"obj-68::obj-144::obj-37" : 				{
+					"parameter_longname" : "LF[3]"
+				}
+,
+				"obj-68::obj-144::obj-48" : 				{
+					"parameter_longname" : "HG[3]"
+				}
+,
+				"obj-68::obj-144::obj-52" : 				{
+					"parameter_longname" : "HF[3]"
+				}
+,
+				"obj-68::obj-151::obj-38" : 				{
+					"parameter_longname" : "live.button[208]"
+				}
+,
+				"obj-68::obj-16" : 				{
+					"parameter_longname" : "live.toggle[30]"
+				}
+,
+				"obj-68::obj-167::obj-19" : 				{
+					"parameter_longname" : "amt[12]"
+				}
+,
+				"obj-68::obj-167::obj-25" : 				{
+					"parameter_longname" : "live.text[35]"
+				}
+,
+				"obj-68::obj-167::obj-63" : 				{
+					"parameter_longname" : "live.text[251]"
+				}
+,
+				"obj-68::obj-169" : 				{
+					"parameter_longname" : "live.text[253]"
+				}
+,
+				"obj-68::obj-170" : 				{
+					"parameter_longname" : "live.text[252]"
+				}
+,
+				"obj-68::obj-184" : 				{
+					"parameter_longname" : "live.button[199]"
+				}
+,
+				"obj-68::obj-188" : 				{
+					"parameter_longname" : "live.slider[14]"
+				}
+,
+				"obj-68::obj-189::obj-9" : 				{
+					"parameter_longname" : "live.slider[13]"
+				}
+,
+				"obj-68::obj-214::obj-11" : 				{
+					"parameter_longname" : "env-on[1]"
+				}
+,
+				"obj-68::obj-214::obj-128" : 				{
+					"parameter_longname" : "live.button[214]"
+				}
+,
+				"obj-68::obj-214::obj-129" : 				{
+					"parameter_longname" : "dezoomy[1]"
+				}
+,
+				"obj-68::obj-214::obj-134" : 				{
+					"parameter_longname" : "dezoomx[1]"
+				}
+,
+				"obj-68::obj-214::obj-148" : 				{
+					"parameter_longname" : "live.button[212]"
+				}
+,
+				"obj-68::obj-214::obj-151" : 				{
+					"parameter_longname" : "live.text[36]"
+				}
+,
+				"obj-68::obj-214::obj-176" : 				{
+					"parameter_longname" : "live.button[213]"
+				}
+,
+				"obj-68::obj-214::obj-178" : 				{
+					"parameter_longname" : "live.button[211]"
+				}
+,
+				"obj-68::obj-214::obj-19" : 				{
+					"parameter_longname" : "amt[18]"
+				}
+,
+				"obj-68::obj-214::obj-241" : 				{
+					"parameter_longname" : "amt[15]"
+				}
+,
+				"obj-68::obj-214::obj-26" : 				{
+					"parameter_longname" : "live.button[210]"
+				}
+,
+				"obj-68::obj-214::obj-67" : 				{
+					"parameter_longname" : "amt[17]"
+				}
+,
+				"obj-68::obj-214::obj-82" : 				{
+					"parameter_longname" : "live.button[209]"
+				}
+,
+				"obj-68::obj-214::obj-91" : 				{
+					"parameter_longname" : "amt[16]"
+				}
+,
+				"obj-68::obj-22::obj-53" : 				{
+					"parameter_longname" : "pit-envsw[1]"
+				}
+,
+				"obj-72::obj-12" : 				{
+					"parameter_longname" : "live.text[55]"
 				}
 
 			}
@@ -10831,140 +11334,256 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "+t.maxpat",
-				"bootpath" : "C:/AP_MAX/APO8_main004/patchers",
+				"bootpath" : "~/Documents/AltePostAudio/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "2.mumubu.json",
-				"bootpath" : "C:/AP_MAX/APO8_main004/data",
+				"bootpath" : "~/Documents/AltePostAudio/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "2gate.maxpat",
-				"bootpath" : "C:/AP_MAX/APO8_main004/patchers",
+				"bootpath" : "~/Documents/AltePostAudio/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "A_am8.json",
-				"bootpath" : "C:/AP_MAX/APO8_main004/data",
+				"bootpath" : "~/Documents/AltePostAudio/data",
+				"patcherrelativepath" : "../data",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "A_bfp8.json",
+				"bootpath" : "~/Documents/AltePostAudio/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "A_creso8.json",
-				"bootpath" : "C:/AP_MAX/APO8_main004/data",
+				"bootpath" : "~/Documents/AltePostAudio/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "A_pauls.json",
-				"bootpath" : "C:/AP_MAX/APO8_main004/data",
+				"bootpath" : "~/Documents/AltePostAudio/data",
+				"patcherrelativepath" : "../data",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "A_rreso.json",
+				"bootpath" : "~/Documents/AltePostAudio/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "A_sfpx.json",
-				"bootpath" : "C:/AP_MAX/APO8_main004/data",
+				"bootpath" : "~/Documents/AltePostAudio/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
+				"name" : "LBH-filter.maxpat",
+				"bootpath" : "~/Documents/AltePostAudio/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "OSC-route.mxe64",
+				"type" : "mx64"
+			}
+, 			{
 				"name" : "PaulXStretch.maxsnap",
 				"bootpath" : "~/Documents/Max 9/Snapshots",
-				"patcherrelativepath" : "../../../Users/SHAART/Documents/Max 9/Snapshots",
+				"patcherrelativepath" : "../../Max 9/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "PaulXStretch_20250402.maxsnap",
 				"bootpath" : "~/Documents/Max 9/Snapshots",
-				"patcherrelativepath" : "../../../Users/SHAART/Documents/Max 9/Snapshots",
+				"patcherrelativepath" : "../../Max 9/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "_init.maxpat",
-				"bootpath" : "C:/AP_MAX/APO8_main004/patchers",
+				"bootpath" : "~/Documents/AltePostAudio/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "allpath.json",
-				"bootpath" : "C:/AP_MAX/APO8_main004/data",
+				"bootpath" : "~/Documents/AltePostAudio/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "am8.p.maxpat",
-				"bootpath" : "C:/AP_MAX/APO8_main004/patchers",
+				"bootpath" : "~/Documents/AltePostAudio/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "azm.gran.json",
-				"bootpath" : "C:/AP_MAX/APO8_main004/data",
+				"bootpath" : "~/Documents/AltePostAudio/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "azm.gran8.maxpat",
-				"bootpath" : "C:/AP_MAX/APO8_main004/patchers",
+				"bootpath" : "~/Documents/AltePostAudio/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "bells-tibetan5",
+				"bootpath" : "~/Documents/AltePostAudio/reso_profiles",
+				"patcherrelativepath" : "../reso_profiles",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "blenddur.maxpat",
+				"bootpath" : "~/Documents/AltePostAudio/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "blp814.maxpat",
+				"bootpath" : "~/Documents/AltePostAudio/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "bp8-chmatrix.maxpat",
+				"bootpath" : "~/Documents/AltePostAudio/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "bpl-fade.gendsp",
+				"bootpath" : "~/Documents/AltePostAudio/code",
+				"patcherrelativepath" : "../code",
+				"type" : "gDSP",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "bpl-phasor.gendsp",
+				"bootpath" : "~/Documents/AltePostAudio/code",
+				"patcherrelativepath" : "../code",
+				"type" : "gDSP",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "bplop2m.gendsp",
+				"bootpath" : "~/Documents/AltePostAudio/code",
+				"patcherrelativepath" : "../code",
+				"type" : "gDSP",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "bplop2p.maxpat",
+				"bootpath" : "~/Documents/AltePostAudio/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "brownian.maxpat",
-				"bootpath" : "C:/AP_MAX/APO8_main004/patchers",
+				"bootpath" : "~/Documents/AltePostAudio/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "bus_pos.maxpat",
+				"bootpath" : "~/Documents/AltePostAudio/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "delta1.gendsp",
+				"bootpath" : "~/Documents/AltePostAudio/code",
+				"patcherrelativepath" : "../code",
+				"type" : "gDSP",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "det-pos-mod.maxpat",
+				"bootpath" : "~/Documents/AltePostAudio/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f-low.txt",
-				"bootpath" : "C:/AP_MAX/APO8_main004/data",
+				"bootpath" : "~/Documents/AltePostAudio/data",
 				"patcherrelativepath" : "../data",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "func+.maxpat",
-				"bootpath" : "C:/AP_MAX/APO8_main004/patchers",
+				"bootpath" : "~/Documents/AltePostAudio/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "func_mult_100.maxpat",
-				"bootpath" : "C:/AP_MAX/APO8_main004/patchers",
+				"bootpath" : "~/Documents/AltePostAudio/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "func_mult_oct.maxpat",
-				"bootpath" : "C:/AP_MAX/APO8_main004/patchers",
+				"bootpath" : "~/Documents/AltePostAudio/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
+				"name" : "go.ramp2trig.gendsp",
+				"bootpath" : "~/Documents/AltePostAudio/code",
+				"patcherrelativepath" : "../code",
+				"type" : "gDSP",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "go.shift.spline6.gendsp",
+				"bootpath" : "~/Documents/AltePostAudio/code",
+				"patcherrelativepath" : "../code",
+				"type" : "gDSP",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "hilbert.gendsp",
-				"bootpath" : "C:/AP_MAX/APO8_main004/code",
+				"bootpath" : "~/Documents/AltePostAudio/code",
 				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
@@ -10979,105 +11598,112 @@
 			}
 , 			{
 				"name" : "iomod8.maxpat",
-				"bootpath" : "C:/AP_MAX/APO8_main004/patchers",
+				"bootpath" : "~/Documents/AltePostAudio/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ldel.maxpat",
-				"bootpath" : "C:/AP_MAX/APO8_main004/patchers",
+				"bootpath" : "~/Documents/AltePostAudio/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
+				"name" : "loop.svg",
+				"bootpath" : "~/Documents/AltePostAudio/media",
+				"patcherrelativepath" : "../media",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "m_IN1.maxpat",
-				"bootpath" : "C:/AP_MAX/APO8_main004/patchers",
+				"bootpath" : "~/Documents/AltePostAudio/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "m_am1.gendsp",
-				"bootpath" : "C:/AP_MAX/APO8_main004/code",
+				"bootpath" : "~/Documents/AltePostAudio/code",
 				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "m_am8.maxpat",
-				"bootpath" : "C:/AP_MAX/APO8_main004/patchers",
+				"bootpath" : "~/Documents/AltePostAudio/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "m_creso8.maxpat",
-				"bootpath" : "C:/AP_MAX/APO8_main004/patchers",
+				"bootpath" : "~/Documents/AltePostAudio/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "m_mc.granvox8_448.maxpat",
-				"bootpath" : "C:/AP_MAX/APO8_main004/patchers",
+				"bootpath" : "~/Documents/AltePostAudio/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "m_paulx.maxpat",
-				"bootpath" : "C:/AP_MAX/APO8_main004/patchers",
+				"bootpath" : "~/Documents/AltePostAudio/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "m_pvu.maxpat",
-				"bootpath" : "C:/AP_MAX/APO8_main004/patchers",
+				"bootpath" : "~/Documents/AltePostAudio/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "m_sfpx8.maxpat",
-				"bootpath" : "C:/AP_MAX/APO8_main004/patchers",
+				"bootpath" : "~/Documents/AltePostAudio/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "m_slide~.maxpat",
-				"bootpath" : "C:/AP_MAX/APO8_main004/patchers",
+				"bootpath" : "~/Documents/AltePostAudio/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "m_timeline1.448.maxpat",
-				"bootpath" : "C:/AP_MAX/APO8_main004/patchers",
+				"bootpath" : "~/Documents/AltePostAudio/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mc.look8.maxpat",
-				"bootpath" : "C:/AP_MAX/APO8_main004/patchers",
+				"bootpath" : "~/Documents/AltePostAudio/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mc.m_slide~.maxpat",
-				"bootpath" : "C:/AP_MAX/APO8_main004/patchers",
+				"bootpath" : "~/Documents/AltePostAudio/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mc.mix1-1~.maxpat",
-				"bootpath" : "C:/AP_MAX/APO8_main004/patchers",
+				"bootpath" : "~/Documents/AltePostAudio/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -11088,42 +11714,56 @@
 			}
 , 			{
 				"name" : "mc.mvol70.maxpat",
-				"bootpath" : "C:/AP_MAX/APO8_main004/patchers",
+				"bootpath" : "~/Documents/AltePostAudio/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mc.mvol70a.maxpat",
-				"bootpath" : "C:/AP_MAX/APO8_main004/patchers",
+				"bootpath" : "~/Documents/AltePostAudio/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mc.opx1.maxpat",
-				"bootpath" : "C:/AP_MAX/APO8_main004/patchers",
+				"bootpath" : "~/Documents/AltePostAudio/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mc.opx1a.maxpat",
+				"bootpath" : "~/Documents/AltePostAudio/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mix98.gendsp",
-				"bootpath" : "C:/AP_MAX/APO8_main004/code",
+				"bootpath" : "~/Documents/AltePostAudio/code",
+				"patcherrelativepath" : "../code",
+				"type" : "gDSP",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mtor.gendsp",
+				"bootpath" : "~/Documents/AltePostAudio/code",
 				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mtor.maxpat",
-				"bootpath" : "C:/AP_MAX/APO8_main004/patchers",
+				"bootpath" : "~/Documents/AltePostAudio/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mult_t.maxpat",
-				"bootpath" : "C:/AP_MAX/APO8_main004/patchers",
+				"bootpath" : "~/Documents/AltePostAudio/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -11134,9 +11774,16 @@
 			}
 , 			{
 				"name" : "onepole.gendsp",
-				"bootpath" : "C:/AP_MAX/APO8_main004/code",
+				"bootpath" : "~/Documents/AltePostAudio/code",
 				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "paraenv12.maxpat",
+				"bootpath" : "~/Documents/AltePostAudio/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
@@ -11145,64 +11792,126 @@
 			}
 , 			{
 				"name" : "pink.gendsp",
-				"bootpath" : "C:/AP_MAX/APO8_main004/code",
+				"bootpath" : "~/Documents/AltePostAudio/code",
 				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "rtom.maxpat",
-				"bootpath" : "C:/AP_MAX/APO8_main004/patchers",
+				"name" : "res-transform.mxe64",
+				"type" : "mx64"
+			}
+, 			{
+				"name" : "resdisplay.mxe64",
+				"type" : "mx64"
+			}
+, 			{
+				"name" : "resonators~.mxe64",
+				"type" : "mx64"
+			}
+, 			{
+				"name" : "rressynth039.maxpat",
+				"bootpath" : "~/Documents/AltePostAudio/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "rtom.maxpat",
+				"bootpath" : "~/Documents/AltePostAudio/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "saw.svg",
+				"bootpath" : "~/Documents/AltePostAudio/media",
+				"patcherrelativepath" : "../media",
+				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "shep.flange02.maxpat",
-				"bootpath" : "C:/AP_MAX/APO8_main004/patchers",
+				"bootpath" : "~/Documents/AltePostAudio/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
+				"name" : "showdir.maxpat",
+				"bootpath" : "~/Documents/AltePostAudio/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sphere_spread.js",
+				"bootpath" : "~/Documents/AltePostAudio/code",
+				"patcherrelativepath" : "../code",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "stretch.txt",
-				"bootpath" : "C:/AP_MAX/APO8_main004/data",
+				"bootpath" : "~/Documents/AltePostAudio/data",
 				"patcherrelativepath" : "../data",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "thru.maxpat",
-				"bootpath" : "C:/AP_MAX/APO8_main004/patchers",
+				"bootpath" : "~/Documents/AltePostAudio/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "topenclose.maxpat",
-				"bootpath" : "C:/AP_MAX/APO8_main004/patchers",
+				"bootpath" : "~/Documents/AltePostAudio/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "volenv3a.maxpat",
+				"bootpath" : "~/Documents/AltePostAudio/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "wfeditmode.maxpat",
+				"bootpath" : "~/Documents/AltePostAudio/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "wfknob.png",
-				"bootpath" : "C:/AP_MAX/APO8_main004/media",
+				"bootpath" : "~/Documents/AltePostAudio/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "wfmodes.png",
-				"bootpath" : "C:/AP_MAX/APO8_main004/media",
+				"bootpath" : "~/Documents/AltePostAudio/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "xmod8.maxpat",
+				"bootpath" : "~/Documents/AltePostAudio/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
 				"implicit" : 1
 			}
  ],
 		"autosave" : 0,
 		"bgcolor" : [ 0.23921568627451, 0.23921568627451, 0.23921568627451, 1.0 ],
-		"editing_bgcolor" : [ 0.396078431372549, 0.396078431372549, 0.396078431372549, 1.0 ]
+		"editing_bgcolor" : [ 0.396078431372549, 0.396078431372549, 0.396078431372549, 1.0 ],
+		"oscreceiveudpport" : 0
 	}
 
 }
