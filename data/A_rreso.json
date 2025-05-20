@@ -1,0 +1,52 @@
+{
+	"pattrstorage" : 	{
+		"name" : "A_rreso",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"del1" : [ 0.0 ],
+					"del2" : [ 0.0 ],
+					"del3" : [ 0.0 ],
+					"del4" : [ 0.0 ],
+					"delglide" : [ 2058.542309161001867 ],
+					"freqadd1" : [ 0.0 ],
+					"freqadd2" : [ 0.0 ],
+					"freqadd3" : [ 0.0 ],
+					"freqadd4" : [ 0.0 ],
+					"freqscale1" : [ 0.007 ],
+					"freqscale2" : [ 0.012 ],
+					"freqscale3" : [ 0.028 ],
+					"freqscale4" : [ 0.071 ],
+					"gain1" : [ 0.0 ],
+					"gain2" : [ 0.0 ],
+					"gain3" : [ 0.0 ],
+					"gain4" : [ 0.0 ],
+					"mfreqadd" : [ 0.0 ],
+					"mfreqscale" : [ 0.0 ],
+					"mgain" : [ 0.0 ],
+					"mix" : [ 100.0 ],
+					"mratescale" : [ 1.0 ],
+					"number" : [ 1 ],
+					"ratescale1" : [ 1.0 ],
+					"ratescale2" : [ 1.0 ],
+					"ratescale3" : [ 1.0 ],
+					"ratescale4" : [ 1.0 ],
+					"resop-names" : [ "DG-mozart-res.max" ],
+					"rslider" : [ 6, 124 ],
+					"iSynth::basefreq" : [ 65.200000000000003 ],
+					"iSynth::harmonic" : [ 1.0, 0.954545454545455, 0.909090909090909, 0.863636363636364, 0.863636363636364, 0.833333333333333, 0.787878787878788, 0.712121212121212 ],
+					"iSynth::inc" : [ 0.02 ],
+					"iSynth::noise" : [ 0.0 ],
+					"iSynth::noisevol" : [ -19.941507311586044 ],
+					"iSynth::sawvol" : [ -20.038245219347573 ],
+					"iSynth::wave" : [ 0.0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
