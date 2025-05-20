@@ -11,7 +11,7 @@ Renderer:
 ## Installation
 1. Lade das Repository herunter oder klone es:
 ```bash
-git clone https://github.com/deinname/deinprojekt.git
+ git clone https://github.com/hammmererer/AltePostAudio.git
 ```
 3. Navigiere in den packages/-Ordner des Repos
 ```bash
