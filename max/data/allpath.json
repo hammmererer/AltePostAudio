@@ -1,0 +1,18 @@
+{
+	"pattrstorage" : 	{
+		"name" : "allpath",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"p-sndpath::snd-path" : [ "C:/AP_MAX/SHA.Quellmaterial_25-03-20/" ],
+					"p-resopath::reso-path" : [ "C:/AP_MAX/reso-profiles/" ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
