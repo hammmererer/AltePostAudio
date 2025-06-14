@@ -15079,10 +15079,70 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 162.0, 408.0, 813.0, 624.0 ],
+						"rect" : [ 162.0, 408.0, 1088.0, 675.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
 						"toolbars_unpinned_last_save" : 3,
+						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"bubble" : 1,
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"id" : "obj-24",
+									"linecount" : 3,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 737.0, 172.0, 132.0, 54.0 ],
+									"presentation_linecount" : 3,
+									"text" : "4. overwrite allpath.json in data folder"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bubble" : 1,
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"id" : "obj-21",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 640.5, 108.5, 132.0, 25.0 ],
+									"text" : "3. press store"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bubble" : 1,
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"id" : "obj-18",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 349.0, 87.5, 132.0, 25.0 ],
+									"text" : "2. load Reso"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bubble" : 1,
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"id" : "obj-17",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 93.0, 79.5, 144.0, 40.0 ],
+									"text" : "1. load Material folder"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontsize" : 11.0,
 									"id" : "obj-14",
@@ -15090,7 +15150,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 686.0, 89.0, 63.0, 21.0 ],
+									"patching_rect" : [ 753.0, 83.0, 63.0, 21.0 ],
 									"text" : "defer"
 								}
 
@@ -15346,140 +15406,8 @@
 								"box" : 								{
 									"bgcolor" : [ 0.152941176470588, 0.407843137254902, 0.137254901960784, 1.0 ],
 									"coll_data" : 									{
-										"count" : 33,
-										"data" : [ 											{
-												"key" : 1,
-												"value" : [ "puls.1", "00sin.wav", 85.333333333333329, 1, 48000.0 ]
-											}
-, 											{
-												"key" : 2,
-												"value" : [ "puls.2", "1.5CycleTransistorSine01.wav", 85.333333333333329, 1, 48000.0 ]
-											}
-, 											{
-												"key" : 3,
-												"value" : [ "puls.3", "1.5CycleTransistorSine02.wav", 85.333333333333329, 1, 48000.0 ]
-											}
-, 											{
-												"key" : 4,
-												"value" : [ "puls.4", "2CycleTransistorXmod01.wav", 85.333333333333329, 1, 48000.0 ]
-											}
-, 											{
-												"key" : 5,
-												"value" : [ "puls.5", "2CycleTransistorXmod02.wav", 85.333333333333329, 1, 48000.0 ]
-											}
-, 											{
-												"key" : 6,
-												"value" : [ "puls.6", "3CycleTransistorXmod01.wav", 85.333333333333329, 1, 48000.0 ]
-											}
-, 											{
-												"key" : 7,
-												"value" : [ "puls.7", "3CycleTransistorXmod02.wav", 85.333333333333329, 1, 48000.0 ]
-											}
-, 											{
-												"key" : 8,
-												"value" : [ "puls.8", "4CycleSinNoiseMod01.wav", 85.333333333333329, 1, 48000.0 ]
-											}
-, 											{
-												"key" : 9,
-												"value" : [ "puls.9", "4CycleSinNoiseMod02.wav", 85.333333333333329, 1, 48000.0 ]
-											}
-, 											{
-												"key" : 10,
-												"value" : [ "puls.10", "4CycleSinNoiseMod03.wav", 85.333333333333329, 1, 48000.0 ]
-											}
-, 											{
-												"key" : 11,
-												"value" : [ "puls.11", "4CycleSinNoiseMod04.wav", 85.333333333333329, 1, 48000.0 ]
-											}
-, 											{
-												"key" : 12,
-												"value" : [ "puls.12", "4CycleSpikyMod.wav", 85.333333333333329, 1, 48000.0 ]
-											}
-, 											{
-												"key" : 13,
-												"value" : [ "puls.13", "ChebyInverse.wav", 85.333333333333329, 1, 48000.0 ]
-											}
-, 											{
-												"key" : 14,
-												"value" : [ "puls.14", "ChebySine3rdHarmonic.wav", 85.333333333333329, 1, 48000.0 ]
-											}
-, 											{
-												"key" : 15,
-												"value" : [ "puls.15", "ChebySineCubed.wav", 85.333333333333329, 1, 48000.0 ]
-											}
-, 											{
-												"key" : 16,
-												"value" : [ "puls.16", "ChebySineCubicDCrotated.wav", 85.333333333333329, 1, 48000.0 ]
-											}
-, 											{
-												"key" : 17,
-												"value" : [ "puls.17", "CircExpMorphA.wav", 85.333333333333329, 1, 48000.0 ]
-											}
-, 											{
-												"key" : 18,
-												"value" : [ "puls.18", "CircExpMorphFull.wav", 85.333333333333329, 1, 48000.0 ]
-											}
-, 											{
-												"key" : 19,
-												"value" : [ "puls.19", "CircSinHMorph.wav", 85.333333333333329, 1, 48000.0 ]
-											}
-, 											{
-												"key" : 20,
-												"value" : [ "puls.20", "CircularSaw.wav", 85.333333333333329, 1, 48000.0 ]
-											}
-, 											{
-												"key" : 21,
-												"value" : [ "puls.21", "ClipArcSinInvSin.wav", 85.333333333333329, 1, 48000.0 ]
-											}
-, 											{
-												"key" : 22,
-												"value" : [ "puls.22", "ComebackPoly.wav", 85.333333333333329, 1, 48000.0 ]
-											}
-, 											{
-												"key" : 23,
-												"value" : [ "puls.23", "CompressionCurve12bitDitherd.wav", 85.333333333333329, 1, 48000.0 ]
-											}
-, 											{
-												"key" : 24,
-												"value" : [ "puls.24", "CompressSineLow.wav", 85.333333333333329, 1, 48000.0 ]
-											}
-, 											{
-												"key" : 25,
-												"value" : [ "puls.25", "CrushA.wav", 85.333333333333329, 1, 48000.0 ]
-											}
-, 											{
-												"key" : 26,
-												"value" : [ "puls.26", "CrushB.wav", 85.333333333333329, 1, 48000.0 ]
-											}
-, 											{
-												"key" : 27,
-												"value" : [ "puls.27", "DaliTriangle.wav", 85.333333333333329, 1, 48000.0 ]
-											}
-, 											{
-												"key" : 28,
-												"value" : [ "puls.28", "DistoSineSloped.wav", 85.333333333333329, 1, 48000.0 ]
-											}
-, 											{
-												"key" : 29,
-												"value" : [ "puls.29", "DoubleSoftCurves.wav", 85.333333333333329, 1, 48000.0 ]
-											}
-, 											{
-												"key" : 30,
-												"value" : [ "puls.30", "ExponentialSmoothedCPH.wav", 85.333333333333329, 1, 48000.0 ]
-											}
-, 											{
-												"key" : 31,
-												"value" : [ "puls.31", "ExponentialSmoothedReverse.wav", 85.333333333333329, 1, 48000.0 ]
-											}
-, 											{
-												"key" : 32,
-												"value" : [ "puls.32", "Faster_gaussian_clipped.wav", 85.333333333333329, 1, 48000.0 ]
-											}
-, 											{
-												"key" : 33,
-												"value" : [ "puls.33", "FastTransientwithTail.wav", 85.333333333333329, 1, 48000.0 ]
-											}
- ]
+										"count" : 0,
+										"data" : [  ]
 									}
 ,
 									"id" : "obj-30",
@@ -15737,140 +15665,8 @@
 												"box" : 												{
 													"bgcolor" : [ 0.152941176470588, 0.407843137254902, 0.137254901960784, 1.0 ],
 													"coll_data" : 													{
-														"count" : 33,
-														"data" : [ 															{
-																"key" : 1,
-																"value" : [ "puls.1", "00sin.wav", 85.333333333333329, 1, 48000.0 ]
-															}
-, 															{
-																"key" : 2,
-																"value" : [ "puls.2", "1.5CycleTransistorSine01.wav", 85.333333333333329, 1, 48000.0 ]
-															}
-, 															{
-																"key" : 3,
-																"value" : [ "puls.3", "1.5CycleTransistorSine02.wav", 85.333333333333329, 1, 48000.0 ]
-															}
-, 															{
-																"key" : 4,
-																"value" : [ "puls.4", "2CycleTransistorXmod01.wav", 85.333333333333329, 1, 48000.0 ]
-															}
-, 															{
-																"key" : 5,
-																"value" : [ "puls.5", "2CycleTransistorXmod02.wav", 85.333333333333329, 1, 48000.0 ]
-															}
-, 															{
-																"key" : 6,
-																"value" : [ "puls.6", "3CycleTransistorXmod01.wav", 85.333333333333329, 1, 48000.0 ]
-															}
-, 															{
-																"key" : 7,
-																"value" : [ "puls.7", "3CycleTransistorXmod02.wav", 85.333333333333329, 1, 48000.0 ]
-															}
-, 															{
-																"key" : 8,
-																"value" : [ "puls.8", "4CycleSinNoiseMod01.wav", 85.333333333333329, 1, 48000.0 ]
-															}
-, 															{
-																"key" : 9,
-																"value" : [ "puls.9", "4CycleSinNoiseMod02.wav", 85.333333333333329, 1, 48000.0 ]
-															}
-, 															{
-																"key" : 10,
-																"value" : [ "puls.10", "4CycleSinNoiseMod03.wav", 85.333333333333329, 1, 48000.0 ]
-															}
-, 															{
-																"key" : 11,
-																"value" : [ "puls.11", "4CycleSinNoiseMod04.wav", 85.333333333333329, 1, 48000.0 ]
-															}
-, 															{
-																"key" : 12,
-																"value" : [ "puls.12", "4CycleSpikyMod.wav", 85.333333333333329, 1, 48000.0 ]
-															}
-, 															{
-																"key" : 13,
-																"value" : [ "puls.13", "ChebyInverse.wav", 85.333333333333329, 1, 48000.0 ]
-															}
-, 															{
-																"key" : 14,
-																"value" : [ "puls.14", "ChebySine3rdHarmonic.wav", 85.333333333333329, 1, 48000.0 ]
-															}
-, 															{
-																"key" : 15,
-																"value" : [ "puls.15", "ChebySineCubed.wav", 85.333333333333329, 1, 48000.0 ]
-															}
-, 															{
-																"key" : 16,
-																"value" : [ "puls.16", "ChebySineCubicDCrotated.wav", 85.333333333333329, 1, 48000.0 ]
-															}
-, 															{
-																"key" : 17,
-																"value" : [ "puls.17", "CircExpMorphA.wav", 85.333333333333329, 1, 48000.0 ]
-															}
-, 															{
-																"key" : 18,
-																"value" : [ "puls.18", "CircExpMorphFull.wav", 85.333333333333329, 1, 48000.0 ]
-															}
-, 															{
-																"key" : 19,
-																"value" : [ "puls.19", "CircSinHMorph.wav", 85.333333333333329, 1, 48000.0 ]
-															}
-, 															{
-																"key" : 20,
-																"value" : [ "puls.20", "CircularSaw.wav", 85.333333333333329, 1, 48000.0 ]
-															}
-, 															{
-																"key" : 21,
-																"value" : [ "puls.21", "ClipArcSinInvSin.wav", 85.333333333333329, 1, 48000.0 ]
-															}
-, 															{
-																"key" : 22,
-																"value" : [ "puls.22", "ComebackPoly.wav", 85.333333333333329, 1, 48000.0 ]
-															}
-, 															{
-																"key" : 23,
-																"value" : [ "puls.23", "CompressionCurve12bitDitherd.wav", 85.333333333333329, 1, 48000.0 ]
-															}
-, 															{
-																"key" : 24,
-																"value" : [ "puls.24", "CompressSineLow.wav", 85.333333333333329, 1, 48000.0 ]
-															}
-, 															{
-																"key" : 25,
-																"value" : [ "puls.25", "CrushA.wav", 85.333333333333329, 1, 48000.0 ]
-															}
-, 															{
-																"key" : 26,
-																"value" : [ "puls.26", "CrushB.wav", 85.333333333333329, 1, 48000.0 ]
-															}
-, 															{
-																"key" : 27,
-																"value" : [ "puls.27", "DaliTriangle.wav", 85.333333333333329, 1, 48000.0 ]
-															}
-, 															{
-																"key" : 28,
-																"value" : [ "puls.28", "DistoSineSloped.wav", 85.333333333333329, 1, 48000.0 ]
-															}
-, 															{
-																"key" : 29,
-																"value" : [ "puls.29", "DoubleSoftCurves.wav", 85.333333333333329, 1, 48000.0 ]
-															}
-, 															{
-																"key" : 30,
-																"value" : [ "puls.30", "ExponentialSmoothedCPH.wav", 85.333333333333329, 1, 48000.0 ]
-															}
-, 															{
-																"key" : 31,
-																"value" : [ "puls.31", "ExponentialSmoothedReverse.wav", 85.333333333333329, 1, 48000.0 ]
-															}
-, 															{
-																"key" : 32,
-																"value" : [ "puls.32", "Faster_gaussian_clipped.wav", 85.333333333333329, 1, 48000.0 ]
-															}
-, 															{
-																"key" : 33,
-																"value" : [ "puls.33", "FastTransientwithTail.wav", 85.333333333333329, 1, 48000.0 ]
-															}
- ]
+														"count" : 0,
+														"data" : [  ]
 													}
 ,
 													"fontname" : "Arial",
@@ -17215,7 +17011,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 89.0, 90.0, 20.0, 20.0 ]
+									"patching_rect" : [ 129.0, 124.0, 20.0, 20.0 ]
 								}
 
 							}
@@ -17355,7 +17151,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 686.0, 51.0, 91.0, 21.0 ],
+									"patching_rect" : [ 753.0, 45.0, 91.0, 21.0 ],
 									"text" : "_init bang 2000"
 								}
 
@@ -17436,7 +17232,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 686.0, 134.0, 29.0, 22.0 ],
+									"patching_rect" : [ 753.0, 128.0, 29.0, 22.0 ],
 									"text" : "1"
 								}
 
@@ -17448,7 +17244,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 629.0, 134.0, 50.0, 22.0 ],
+									"patching_rect" : [ 590.283340007066727, 110.0, 50.0, 22.0 ],
 									"text" : "store 1"
 								}
 
@@ -20512,7 +20308,7 @@
 						"attrui" : [ "numouts", 12 ],
 						"attrui[1]" : [ "numins", 14 ],
 						"bus1" : [ -0.258987092201114 ],
-						"bus2" : [ -0.749048288215303 ],
+						"bus2" : [ -0.749048288215302 ],
 						"bus3" : [ 0.650730496464636 ],
 						"bus4" : [ 0.681950248922984 ],
 						"bus5" : [ 0.61951074400633 ],
@@ -20619,7 +20415,7 @@
 						"live.toggle[4]" : [ 0.0 ],
 						"number" : [ 26 ],
 						"number[1]" : [ 162 ],
-						"number[2]" : [ 120 ],
+						"number[2]" : [ 83 ],
 						"number[3]" : [ 5000 ],
 						"number[4]" : [ 0 ],
 						"showgain-cross" : [ 0.0 ],
@@ -23616,77 +23412,77 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "+t.maxpat",
-				"bootpath" : "~/Documents/25_projekte/01_alte_post/2 max/APO8_main057/patchers",
+				"bootpath" : "~/Downloads/AltePostAudio-main 2/APO8_main057/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "2gate.maxpat",
-				"bootpath" : "~/Documents/25_projekte/01_alte_post/2 max/APO8_main057/patchers",
+				"bootpath" : "~/Downloads/AltePostAudio-main 2/APO8_main057/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "A_am8.json",
-				"bootpath" : "~/Documents/25_projekte/01_alte_post/2 max/APO8_main057/data",
+				"bootpath" : "~/Downloads/AltePostAudio-main 2/APO8_main057/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "A_bfp8.json",
-				"bootpath" : "~/Documents/25_projekte/01_alte_post/2 max/APO8_main056/data",
+				"bootpath" : "~/Downloads/AltePostAudio-main 2/APO8_main057/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "A_creso8.json",
-				"bootpath" : "~/Documents/25_projekte/01_alte_post/2 max/APO8_main057/data",
+				"bootpath" : "~/Downloads/AltePostAudio-main 2/APO8_main057/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "A_mcgrain.json",
-				"bootpath" : "~/Documents/25_projekte/01_alte_post/2 max/APO8_main057/data",
+				"bootpath" : "~/Downloads/AltePostAudio-main 2/APO8_main057/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "A_pauls.json",
-				"bootpath" : "~/Documents/25_projekte/01_alte_post/2 max/APO8_main056/data",
+				"bootpath" : "~/Downloads/AltePostAudio-main 2/APO8_main057/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "A_rreso.json",
-				"bootpath" : "~/Documents/25_projekte/01_alte_post/2 max/APO8_main057/data",
+				"bootpath" : "~/Downloads/AltePostAudio-main 2/APO8_main057/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "A_sfpx.json",
-				"bootpath" : "~/Documents/25_projekte/01_alte_post/2 max/APO8_main057/data",
+				"bootpath" : "~/Downloads/AltePostAudio-main 2/APO8_main057/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "HPLP.maxpat",
-				"bootpath" : "~/Documents/25_projekte/01_alte_post/2 max/APO8_main057/patchers",
+				"bootpath" : "~/Downloads/AltePostAudio-main 2/APO8_main057/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "LBH-filter.maxpat",
-				"bootpath" : "~/Documents/25_projekte/01_alte_post/2 max/APO8_main057/patchers",
+				"bootpath" : "~/Downloads/AltePostAudio-main 2/APO8_main057/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -23698,104 +23494,104 @@
 , 			{
 				"name" : "PaulXStretch.maxsnap",
 				"bootpath" : "~/Documents/Max 9/Snapshots",
-				"patcherrelativepath" : "../../../../../Max 9/Snapshots",
+				"patcherrelativepath" : "../../../../Documents/Max 9/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "_init.maxpat",
-				"bootpath" : "~/Documents/25_projekte/01_alte_post/2 max/APO8_main057/patchers",
+				"bootpath" : "~/Downloads/AltePostAudio-main 2/APO8_main057/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "allpath.json",
-				"bootpath" : "~/Documents/25_projekte/01_alte_post/2 max/APO8_main057/data",
+				"bootpath" : "~/Downloads/AltePostAudio-main 2/APO8_main057/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "am8.p.maxpat",
-				"bootpath" : "~/Documents/25_projekte/01_alte_post/2 max/APO8_main057/patchers",
+				"bootpath" : "~/Downloads/AltePostAudio-main 2/APO8_main057/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "becken1.0",
-				"bootpath" : "~/Documents/25_projekte/01_alte_post/2 max/APO8_main057/other",
+				"bootpath" : "~/Downloads/AltePostAudio-main 2/APO8_main057/other",
 				"patcherrelativepath" : "../other",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "blp819.maxpat",
-				"bootpath" : "~/Documents/25_projekte/01_alte_post/2 max/APO8_main057/patchers",
+				"bootpath" : "~/Downloads/AltePostAudio-main 2/APO8_main057/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "blpenv12-ranges",
-				"bootpath" : "~/Documents/25_projekte/01_alte_post/2 max/APO8_main057/other",
+				"bootpath" : "~/Downloads/AltePostAudio-main 2/APO8_main057/other",
 				"patcherrelativepath" : "../other",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "blpenv12.maxpat",
-				"bootpath" : "~/Documents/25_projekte/01_alte_post/2 max/APO8_main057/patchers",
+				"bootpath" : "~/Downloads/AltePostAudio-main 2/APO8_main057/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp8-chmatrix.maxpat",
-				"bootpath" : "~/Documents/25_projekte/01_alte_post/2 max/APO8_main057/patchers",
+				"bootpath" : "~/Downloads/AltePostAudio-main 2/APO8_main057/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bplop3p.maxpat",
-				"bootpath" : "~/Documents/25_projekte/01_alte_post/2 max/APO8_main057/patchers",
+				"bootpath" : "~/Downloads/AltePostAudio-main 2/APO8_main057/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bus_pos.maxpat",
-				"bootpath" : "~/Documents/25_projekte/01_alte_post/2 max/APO8_main057/patchers",
+				"bootpath" : "~/Downloads/AltePostAudio-main 2/APO8_main057/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cgrainenv12-ranges",
-				"bootpath" : "~/Documents/25_projekte/01_alte_post/2 max/APO8_main057/other",
+				"bootpath" : "~/Downloads/AltePostAudio-main 2/APO8_main057/other",
 				"patcherrelativepath" : "../other",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cgrainenv12.maxpat",
-				"bootpath" : "~/Documents/25_projekte/01_alte_post/2 max/APO8_main057/patchers",
+				"bootpath" : "~/Downloads/AltePostAudio-main 2/APO8_main057/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "det-pos-mod1a.maxpat",
-				"bootpath" : "~/Documents/25_projekte/01_alte_post/2 max/APO8_main057/patchers",
+				"bootpath" : "~/Downloads/AltePostAudio-main 2/APO8_main057/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f-low.txt",
-				"bootpath" : "~/Documents/25_projekte/01_alte_post/2 max/APO8_main057/data",
+				"bootpath" : "~/Downloads/AltePostAudio-main 2/APO8_main057/data",
 				"patcherrelativepath" : "../data",
 				"type" : "TEXT",
 				"implicit" : 1
@@ -23803,181 +23599,181 @@
 , 			{
 				"name" : "go.noise.normal.gendsp",
 				"bootpath" : "~/Documents/Max 9/Packages/GeneratingSoundAndOrganizingTime/patchers",
-				"patcherrelativepath" : "../../../../../Max 9/Packages/GeneratingSoundAndOrganizingTime/patchers",
+				"patcherrelativepath" : "../../../../Documents/Max 9/Packages/GeneratingSoundAndOrganizingTime/patchers",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "go.ramp2trig.gendsp",
 				"bootpath" : "~/Documents/Max 9/Packages/GeneratingSoundAndOrganizingTime/patchers",
-				"patcherrelativepath" : "../../../../../Max 9/Packages/GeneratingSoundAndOrganizingTime/patchers",
+				"patcherrelativepath" : "../../../../Documents/Max 9/Packages/GeneratingSoundAndOrganizingTime/patchers",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "go.shift.spline6.gendsp",
 				"bootpath" : "~/Documents/Max 9/Packages/GeneratingSoundAndOrganizingTime/patchers",
-				"patcherrelativepath" : "../../../../../Max 9/Packages/GeneratingSoundAndOrganizingTime/patchers",
+				"patcherrelativepath" : "../../../../Documents/Max 9/Packages/GeneratingSoundAndOrganizingTime/patchers",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "iomod8.maxpat",
-				"bootpath" : "~/Documents/25_projekte/01_alte_post/2 max/APO8_main057/patchers",
+				"bootpath" : "~/Downloads/AltePostAudio-main 2/APO8_main057/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ldel.maxpat",
-				"bootpath" : "~/Documents/25_projekte/01_alte_post/2 max/APO8_main057/patchers",
+				"bootpath" : "~/Downloads/AltePostAudio-main 2/APO8_main057/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "loop.svg",
-				"bootpath" : "~/Documents/25_projekte/01_alte_post/2 max/APO8_main057/media",
+				"bootpath" : "~/Downloads/AltePostAudio-main 2/APO8_main057/media",
 				"patcherrelativepath" : "../media",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "m.cgrain12.maxpat",
-				"bootpath" : "~/Documents/25_projekte/01_alte_post/2 max/APO8_main057/patchers",
+				"bootpath" : "~/Downloads/AltePostAudio-main 2/APO8_main057/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "m_IN1.maxpat",
-				"bootpath" : "~/Documents/25_projekte/01_alte_post/2 max/APO8_main057/patchers",
+				"bootpath" : "~/Downloads/AltePostAudio-main 2/APO8_main057/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "m_am801.maxpat",
-				"bootpath" : "~/Documents/25_projekte/01_alte_post/2 max/APO8_main057/patchers",
+				"bootpath" : "~/Downloads/AltePostAudio-main 2/APO8_main057/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "m_creso801.maxpat",
-				"bootpath" : "~/Documents/25_projekte/01_alte_post/2 max/APO8_main057/patchers",
+				"bootpath" : "~/Downloads/AltePostAudio-main 2/APO8_main057/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "m_paulx03a.maxpat",
-				"bootpath" : "~/Documents/25_projekte/01_alte_post/2 max/APO8_main057/patchers",
+				"bootpath" : "~/Downloads/AltePostAudio-main 2/APO8_main057/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "m_pvu.maxpat",
-				"bootpath" : "~/Documents/25_projekte/01_alte_post/2 max/APO8_main057/patchers",
+				"bootpath" : "~/Downloads/AltePostAudio-main 2/APO8_main057/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "m_sfpx8.maxpat",
-				"bootpath" : "~/Documents/25_projekte/01_alte_post/2 max/APO8_main057/patchers",
+				"bootpath" : "~/Downloads/AltePostAudio-main 2/APO8_main057/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "m_slide~.maxpat",
-				"bootpath" : "~/Documents/25_projekte/01_alte_post/2 max/APO8_main057/patchers",
+				"bootpath" : "~/Downloads/AltePostAudio-main 2/APO8_main057/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mast-pre.json",
-				"bootpath" : "~/Documents/25_projekte/01_alte_post/2 max/APO8_main057/data",
+				"bootpath" : "~/Downloads/AltePostAudio-main 2/APO8_main057/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mc.look8.maxpat",
-				"bootpath" : "~/Documents/25_projekte/01_alte_post/2 max/APO8_main057/patchers",
+				"bootpath" : "~/Downloads/AltePostAudio-main 2/APO8_main057/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mc.m_slide~.maxpat",
-				"bootpath" : "~/Documents/25_projekte/01_alte_post/2 max/APO8_main057/patchers",
+				"bootpath" : "~/Downloads/AltePostAudio-main 2/APO8_main057/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mc.mix1-1~.maxpat",
-				"bootpath" : "~/Documents/25_projekte/01_alte_post/2 max/APO8_main057/patchers",
+				"bootpath" : "~/Downloads/AltePostAudio-main 2/APO8_main057/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mc.mvol70.maxpat",
-				"bootpath" : "~/Documents/25_projekte/01_alte_post/2 max/APO8_main057/patchers",
+				"bootpath" : "~/Downloads/AltePostAudio-main 2/APO8_main057/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mc.mvol70a.maxpat",
-				"bootpath" : "~/Documents/25_projekte/01_alte_post/2 max/APO8_main057/patchers",
+				"bootpath" : "~/Downloads/AltePostAudio-main 2/APO8_main057/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mc.opx1.maxpat",
-				"bootpath" : "~/Documents/25_projekte/01_alte_post/2 max/APO8_main057/patchers",
+				"bootpath" : "~/Downloads/AltePostAudio-main 2/APO8_main057/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mc.opx1a.maxpat",
-				"bootpath" : "~/Documents/25_projekte/01_alte_post/2 max/APO8_main057/patchers",
+				"bootpath" : "~/Downloads/AltePostAudio-main 2/APO8_main057/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mtor.maxpat",
-				"bootpath" : "~/Documents/25_projekte/01_alte_post/2 max/APO8_main057/patchers",
+				"bootpath" : "~/Downloads/AltePostAudio-main 2/APO8_main057/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mtor~.maxpat",
-				"bootpath" : "~/Documents/25_projekte/01_alte_post/2 max/APO8_main057/patchers",
+				"bootpath" : "~/Downloads/AltePostAudio-main 2/APO8_main057/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mult_t.maxpat",
-				"bootpath" : "~/Documents/25_projekte/01_alte_post/2 max/APO8_main057/patchers",
+				"bootpath" : "~/Downloads/AltePostAudio-main 2/APO8_main057/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "my.spat5.mon.maxpat",
-				"bootpath" : "~/Documents/25_projekte/01_alte_post/2 max/APO8_main057/patchers",
+				"bootpath" : "~/Downloads/AltePostAudio-main 2/APO8_main057/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -23992,14 +23788,14 @@
 			}
 , 			{
 				"name" : "paulenv14-ranges",
-				"bootpath" : "~/Documents/25_projekte/01_alte_post/2 max/APO8_main057/other",
+				"bootpath" : "~/Downloads/AltePostAudio-main 2/APO8_main057/other",
 				"patcherrelativepath" : "../other",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "paulenv14a.maxpat",
-				"bootpath" : "~/Documents/25_projekte/01_alte_post/2 max/APO8_main057/patchers",
+				"bootpath" : "~/Downloads/AltePostAudio-main 2/APO8_main057/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -24022,28 +23818,28 @@
 			}
 , 			{
 				"name" : "rressynth4.maxpat",
-				"bootpath" : "~/Documents/25_projekte/01_alte_post/2 max/APO8_main057/patchers",
+				"bootpath" : "~/Downloads/AltePostAudio-main 2/APO8_main057/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtom.maxpat",
-				"bootpath" : "~/Documents/25_projekte/01_alte_post/2 max/APO8_main057/patchers",
+				"bootpath" : "~/Downloads/AltePostAudio-main 2/APO8_main057/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "shep.flange02.maxpat",
-				"bootpath" : "~/Documents/25_projekte/01_alte_post/2 max/APO8_main057/patchers",
+				"bootpath" : "~/Downloads/AltePostAudio-main 2/APO8_main057/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "showdir.maxpat",
-				"bootpath" : "~/Documents/25_projekte/01_alte_post/2 max/APO8_main057/patchers",
+				"bootpath" : "~/Downloads/AltePostAudio-main 2/APO8_main057/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -24066,63 +23862,63 @@
 			}
 , 			{
 				"name" : "stretch.txt",
-				"bootpath" : "~/Documents/25_projekte/01_alte_post/2 max/APO8_main057/data",
+				"bootpath" : "~/Downloads/AltePostAudio-main 2/APO8_main057/data",
 				"patcherrelativepath" : "../data",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "swopenclose.maxpat",
-				"bootpath" : "~/Documents/25_projekte/01_alte_post/2 max/APO8_main057/patchers",
+				"bootpath" : "~/Downloads/AltePostAudio-main 2/APO8_main057/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "swopenwclose.maxpat",
-				"bootpath" : "~/Documents/25_projekte/01_alte_post/2 max/APO8_main057/patchers",
+				"bootpath" : "~/Downloads/AltePostAudio-main 2/APO8_main057/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "thru.maxpat",
-				"bootpath" : "~/Documents/25_projekte/01_alte_post/2 max/APO8_main057/patchers",
+				"bootpath" : "~/Downloads/AltePostAudio-main 2/APO8_main057/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "topenclose.maxpat",
-				"bootpath" : "~/Documents/25_projekte/01_alte_post/2 max/APO8_main057/patchers",
+				"bootpath" : "~/Downloads/AltePostAudio-main 2/APO8_main057/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "wfeditmode.maxpat",
-				"bootpath" : "~/Documents/25_projekte/01_alte_post/2 max/APO8_main057/patchers",
+				"bootpath" : "~/Downloads/AltePostAudio-main 2/APO8_main057/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "wfknob.png",
-				"bootpath" : "~/Documents/25_projekte/01_alte_post/2 max/APO8_main057/media",
+				"bootpath" : "~/Downloads/AltePostAudio-main 2/APO8_main057/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "wfmodes.png",
-				"bootpath" : "~/Documents/25_projekte/01_alte_post/2 max/APO8_main057/media",
+				"bootpath" : "~/Downloads/AltePostAudio-main 2/APO8_main057/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "xmod8a.maxpat",
-				"bootpath" : "~/Documents/25_projekte/01_alte_post/2 max/APO8_main057/patchers",
+				"bootpath" : "~/Downloads/AltePostAudio-main 2/APO8_main057/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
