@@ -147,8 +147,9 @@ Speaker Arrays (7 venues, 152 channels total)
   - Required for Reaper spatial rendering
 - **DANTE Controller** ([Download](https://www.audinate.com/products/software/dante-controller))
   - Required for audio network configuration
-- **Max Dependencies** (included in `dependencies/` folder)
+- **Max Dependencies** (included in `dependencies/` folder or [download from Google Drive](https://drive.google.com/drive/folders/1q4KhnG0dok_zjeWZoE4U2uqC6Lic_MH1?usp=drive_link))
   - Must be copied to local Max library
+  - **Note:** Packages are too large for GitHub, download from Google Drive if not included locally
   - Libraries used:
     - **CNMAT Externals** - UC Berkeley CNMAT objects for audio/OSC processing
     - **ease** - Easing functions for smooth parameter transitions
@@ -278,7 +279,7 @@ Download and install from [cycling74.com](https://cycling74.com/downloads) or us
 
 ⚠️ **Without this step, patches will not work!**
 
-The following Max libraries are required and included in the `dependencies/` folder:
+The following Max libraries are required:
 
 | Library | Purpose |
 |---------|---------|
@@ -293,15 +294,24 @@ The following Max libraries are required and included in the `dependencies/` fol
 | **odot** | OSC message handling and data structures |
 | **spat5-x64** | IRCAM Spat spatial audio processing suite |
 
+**Download Libraries:**
+
+If not included in local `dependencies/` folder, download from:
+**[Google Drive - Max Packages](https://drive.google.com/drive/folders/1q4KhnG0dok_zjeWZoE4U2uqC6Lic_MH1?usp=drive_link)**
+
+*(Note: Packages are too large for GitHub hosting)*
+
+**Installation:**
+
 **Windows:**
 ```
-Copy all folders from: dependencies/
+Copy all folders from: dependencies/ (or downloaded folder)
                   to: C:\Users\[YourUsername]\Documents\Max 9\Library\
 ```
 
 **macOS:**
 ```
-Copy all folders from: dependencies/
+Copy all folders from: dependencies/ (or downloaded folder)
                   to: ~/Documents/Max 9/Library/
 ```
 
@@ -932,6 +942,8 @@ APO_audio/
     ├── Max909_250918_d7cea08.msi         ← Max 9 installer
     ├── reaper748_x64-install.exe         ← Reaper installer
     └── IEMPluginSuiteInstaller_v1.15.0_x64.exe ← IEM plugins
+
+**Note:** Max packages also available on [Google Drive](https://drive.google.com/drive/folders/1q4KhnG0dok_zjeWZoE4U2uqC6Lic_MH1?usp=drive_link) (too large for GitHub)
 ```
 
 ---
@@ -991,6 +1003,7 @@ oscsend 10.1.11.71 4000 /index i 122
 - [ ] All 10 libraries copied to Max 9/Library/?
   - CNMAT Externals, ease, FluidCorpusManipulation, GeneratingSoundAndOrganizingTime
   - ICST Ambisonics, jasch objects, karma, MuBu For Max, odot, spat5-x64
+  - Download from [Google Drive](https://drive.google.com/drive/folders/1q4KhnG0dok_zjeWZoE4U2uqC6Lic_MH1?usp=drive_link) if not in local `dependencies/` folder
 - [ ] File Preferences configured? (Add `APO_Main` + "Include Subfolders")
 - [ ] Max restarted after configuration?
 
