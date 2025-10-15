@@ -60,7 +60,7 @@ This audio software is part of a larger AI-driven media installation system. The
 |-----------|------------|
 | **Audio Processing** | Cycling '74 Max 9 |
 | **Spatial Rendering** | Reaper + IEM Ambisonic Plugins |
-| **Audio Classification** | Python, TensorFlow (YAMNet), OpenAI GPT-4 |
+| **Audio Classification** | Python, TensorFlow (YAMNet), OpenAI GPT-4 mini |
 | **Audio Network** | DANTE  |
 | **Control Protocol** | OSC (UDP Ports 3000, 4000, 4321, 6000, 9001-9004) |
 
@@ -149,6 +149,17 @@ Speaker Arrays (7 venues, 152 channels total)
   - Required for audio network configuration
 - **Max Dependencies** (included in `dependencies/` folder)
   - Must be copied to local Max library
+  - Libraries used:
+    - **CNMAT Externals** - UC Berkeley CNMAT objects for audio/OSC processing
+    - **ease** - Easing functions for smooth parameter transitions
+    - **FluidCorpusManipulation** - Machine learning toolkit for audio analysis
+    - **GeneratingSoundAndOrganizingTime** - Synthesis and sequencing tools
+    - **ICST Ambisonics** - Spatial audio processing (Zurich University of the Arts)
+    - **jasch objects** - Utility objects for Max patching
+    - **karma** - Advanced patching utilities
+    - **MuBu For Max** - Multi-buffer processing for sound analysis/synthesis
+    - **odot** - OSC message handling and data structures
+    - **spat5-x64** - IRCAM Spat spatial audio processing suite
 
 **Optional:**
 - **Python 3.8+ with TensorFlow** - For audio classification pipeline
@@ -171,11 +182,16 @@ Speaker Arrays (7 venues, 152 channels total)
 | WS-AUD-SPAT-PG8 | 64GB | 24+ cores | Outdoor Ambisonics (7th Order) |
 | WS-AUD-SPAT-DMN | 32GB | 16+ cores | Indoor Ambisonics (3rd Order max) |
 
+**Audio Interfaces:**
+- **Marian Clara E** DANTE audio interface (512ch I/O)
+- **Driver Version**: 4.71 (required for all systems)
+- ASIO driver for Max and Reaper integration
+
 **Network Infrastructure:**
 - Gigabit Ethernet switch (DANTE compatible, QoS-capable, multicast/IGMP support)
 - Cat6 or Cat6a Ethernet cables
-- Flow control disabled on all switch ports
-- DANTE-capable audio interfaces with sufficient channel counts
+- Flow control disabled on all switch ports 
+
 
 ---
 
@@ -236,7 +252,7 @@ WS-AUD-VIT-PG8 → WS-AUD-SPAT-PG8:
   Vit + Col: 20ch (Ch. 401-421) → Reaper Ch. 097-116
 
 WS-AUD-SPAT-PG8 → Speakers:
-  Output:   136ch (Ch. 001-163) → Speaker System
+  Output:   136ch (Ch. 001-163) → Yamaha Matrix
 ```
 
 **Indoor System (10.2.11.x):**
@@ -249,7 +265,7 @@ WS-AUD-VIT-PG8 → WS-AUD-SPAT-DMN:
   Vit + Col: 20ch (Ch. 401-421) → Reaper Ch. 061-080
 
 WS-AUD-SPAT-DMN → Speakers:
-  Output:    98ch (Ch. 001-099) → Speaker System
+  Output:    98ch (Ch. 001-099) → Yamaha Matrix
 ```
 
 ### 4.3 Max Installation (Content Computers)
@@ -262,10 +278,31 @@ Download and install from [cycling74.com](https://cycling74.com/downloads) or us
 
 ⚠️ **Without this step, patches will not work!**
 
+The following Max libraries are required and included in the `dependencies/` folder:
+
+| Library | Purpose |
+|---------|---------|
+| **CNMAT Externals** | UC Berkeley CNMAT objects for audio/OSC processing |
+| **ease** | Easing functions for smooth parameter transitions |
+| **FluidCorpusManipulation** | Machine learning toolkit for audio analysis |
+| **GeneratingSoundAndOrganizingTime** | Synthesis and sequencing tools |
+| **ICST Ambisonics** | Spatial audio processing (Zurich University of the Arts) |
+| **jasch objects** | Utility objects for Max patching |
+| **karma** | Advanced patching utilities |
+| **MuBu For Max** | Multi-buffer processing for sound analysis/synthesis |
+| **odot** | OSC message handling and data structures |
+| **spat5-x64** | IRCAM Spat spatial audio processing suite |
+
 **Windows:**
 ```
-Copy all files/folders from: dependencies/
-                        to: C:\Users\[YourUsername]\Documents\Max 9\Library\
+Copy all folders from: dependencies/
+                  to: C:\Users\[YourUsername]\Documents\Max 9\Library\
+```
+
+**macOS:**
+```
+Copy all folders from: dependencies/
+                  to: ~/Documents/Max 9/Library/
 ```
 
 #### 4.3.3 Configure File Preferences (CRITICAL)
@@ -292,16 +329,16 @@ Copy all files/folders from: dependencies/
 - **Sample Rate**: 48000 Hz
 - **I/O Vector Size**: 2048 samples
 - **Signal Vector Size**: 2048 samples
-- **Audio Interface**: ad_asio Clara E
-- **Clocksourece**: Dante
+- **Audio Interface**: ad_asio Clara E (Marian Clara E, Driver v4.71)
+- **Clock Source**: DANTE
 - **Overdrive**: On - Essential!
 
 **For WS-AUD-VIT-PG8:**
 - **Sample Rate**: 48000 Hz
 - **I/O Vector Size**: 2048 samples
 - **Signal Vector Size**: 2048 samples
-- **Audio Interface**: ad_asio Clara E
-- **Clocksourece**: Dante
+- **Audio Interface**: ad_asio Clara E (Marian Clara E, Driver v4.71)
+- **Clock Source**: DANTE
 - **Overdrive**: On - Essential!
 
 ### 4.4 Reaper Installation (Spatial Computers)
@@ -317,13 +354,13 @@ Download from [plugins.iem.at](https://plugins.iem.at/) and run plugin scan or u
 **WS-AUD-SPAT-PG8 (Outdoor):**
 - **Sample Rate**: 48000 Hz
 - **Block Size**: 512 samples
-- **Audio Device**: DANTE (512ch input / 512ch output)
+- **Audio Device**: ASIO Marian Clara E (Driver v4.71, 512ch I/O via DANTE)
 - **Project**: `APO_Render/APO_outdoor_output.rpp`
 
 **WS-AUD-SPAT-DMN (Indoor):**
 - **Sample Rate**: 48000 Hz
 - **Block Size**: 512 samples
-- **Audio Device**: DANTE (512ch input / 512ch output)
+- **Audio Device**: ASIO Marian Clara E (Driver v4.71, 512ch I/O via DANTE)
 - **Project**: `APO_Render/APO_indoor_output.rpp`
 
 #### 4.4.4 Load Decoder Configurations
@@ -881,8 +918,20 @@ APO_audio/
 │   ├── SHA_AltePost_Audiokanäle_Kunstwerk1_250901.xlsx
 │   └── SHA_AltePost_Audiokanäle_Kunstwerk2_250901.xlsx
 │
-└── 📁 dependencies/                      ← Max externals
-    └── ...                               ← Copy to Max 9/Library/
+└── 📁 dependencies/                      ← Max libraries & installers
+    ├── CNMAT Externals/                  ← UC Berkeley CNMAT (Copy to Max 9/Library/)
+    ├── ease/                             ← Easing functions (Copy to Max 9/Library/)
+    ├── FluidCorpusManipulation/          ← ML audio toolkit (Copy to Max 9/Library/)
+    ├── GeneratingSoundAndOrganizingTime/ ← Synthesis tools (Copy to Max 9/Library/)
+    ├── ICST Ambisonics/                  ← Spatial audio ZHdK (Copy to Max 9/Library/)
+    ├── jasch objects/                    ← Utility objects (Copy to Max 9/Library/)
+    ├── karma/                            ← Patching utilities (Copy to Max 9/Library/)
+    ├── MuBu For Max/                     ← Multi-buffer (Copy to Max 9/Library/)
+    ├── odot/                             ← OSC handling (Copy to Max 9/Library/)
+    ├── spat5-x64/                        ← IRCAM Spat (Copy to Max 9/Library/)
+    ├── Max909_250918_d7cea08.msi         ← Max 9 installer
+    ├── reaper748_x64-install.exe         ← Reaper installer
+    └── IEMPluginSuiteInstaller_v1.15.0_x64.exe ← IEM plugins
 ```
 
 ---
@@ -894,7 +943,6 @@ APO_audio/
 **No audio in Max:**
 - [ ] Audio activated? (Audio On)
 - [ ] Correct audio interface selected?
-- [ ] DANTE Virtual Soundcard running?
 - [ ] DSP activated?
 - [ ] SystemMasterFader at 0?
 
@@ -918,7 +966,6 @@ APO_audio/
 - [ ] Ethernet connected?
 - [ ] IP addresses correct?
 - [ ] Subnet mask 255.255.255.0?
-- [ ] Firewall blocking?
 
 **DANTE devices not visible:**
 - [ ] Switch supports multicast/IGMP?
@@ -941,15 +988,24 @@ oscsend 10.1.11.71 4000 /index i 122
 ### 13.4 Max Patch Issues
 
 **Missing externals / Objects not found:**
-- [ ] Dependencies installed? (Copy `dependencies/` to Max 9/Library/)
+- [ ] All 10 libraries copied to Max 9/Library/?
+  - CNMAT Externals, ease, FluidCorpusManipulation, GeneratingSoundAndOrganizingTime
+  - ICST Ambisonics, jasch objects, karma, MuBu For Max, odot, spat5-x64
 - [ ] File Preferences configured? (Add `APO_Main` + "Include Subfolders")
 - [ ] Max restarted after configuration?
+
+**Common missing objects and their libraries:**
+- `cnmat.*` objects → **CNMAT Externals** missing
+- `fluid.*` objects → **FluidCorpusManipulation** missing
+- `mubu.*` objects → **MuBu For Max** missing
+- `o.*` objects → **odot** missing
+- `spat5.*` objects → **spat5-x64** missing
 
 **Patch won't open / Crashes:**
 - [ ] All dependencies copied?
 - [ ] File Preferences with "Include Subfolders" checked?
 - [ ] Max version 9.0+?
-- [ ] Check Max Console for errors
+- [ ] Check Max Console for specific missing object errors
 
 ### 13.5 IEM Plugin Issues
 
@@ -990,6 +1046,7 @@ oscsend 10.1.11.71 4000 /index i 122
 |-----------|-------|-------|
 | **Sample Rate** | 48 kHz | System-wide, broadcast standard |
 | **Bit Depth** | 24 bit | DANTE network |
+| **Audio Interface** | Marian Clara E | 512ch I/O, Driver v4.71 |
 | **Max Channels** | 512ch | DANTE interface capacity |
 | **Total Speakers** | 152ch | All 7 venues |
 | **Max Buffer** | 2048 samples | Content computers (~43ms) |
