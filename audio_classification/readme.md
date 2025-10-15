@@ -2,6 +2,8 @@
 
 **Automated Audio Analysis and Classification with YAMNet and GPT-4**
 
+**🎯 Beginner-Friendly**: This notebook is designed for users with no coding experience. Just follow the 3-step process!
+
 ---
 
 ## Overview
@@ -56,17 +58,51 @@ For each user-defined category, GPT-4 provides:
 
 ## Installation
 
-### Prerequisites
-- Python 3.8+
-- OpenAI API Key
+### System Requirements
+- **Python 3.8 or newer** (Python 3.9-3.11 recommended)
+- **8GB RAM minimum** (16GB recommended for processing many files)
+- **Internet connection** (for downloading models and API access)
+- **OpenAI API Key** (get from: https://platform.openai.com/api-keys)
 
-### Install Dependencies
+### Step 1: Install Python
+
+**Windows:**
+1. Download from: https://www.python.org/downloads/
+2. During installation, check ✅ "Add Python to PATH"
+3. Complete the installation
+
+**macOS:**
+1. Python 3 is usually pre-installed
+2. Check version: Open Terminal and type `python3 --version`
+3. If not installed, download from: https://www.python.org/downloads/
+
+### Step 2: Install Required Libraries
+
+Open your **Terminal** (macOS) or **Command Prompt** (Windows) and run:
+
 ```bash
-pip install tensorflow tensorflow-hub librosa openai pandas numpy
+pip install tensorflow tensorflow-hub librosa openai pandas jupyter
 ```
 
-### Prepare Files
-1. **`classes.csv`** in the same folder as the notebook:
+**If you encounter errors**, try:
+```bash
+pip3 install tensorflow tensorflow-hub librosa openai pandas jupyter
+```
+
+**Note:** Installation may take 5-10 minutes as TensorFlow is a large library.
+
+### Step 3: Get OpenAI API Key
+
+1. Go to: https://platform.openai.com/api-keys
+2. Sign up or log in to your OpenAI account
+3. Click "Create new secret key"
+4. Copy the key (you'll need it in the notebook)
+
+**Important:** Keep your API key private! Never share it publicly.
+
+### Step 4: Prepare Files
+
+1. **`classes.csv`** must be in the same folder as `audio_class.ipynb`:
 ```csv
 Label,Meaning Sound
 Music,Musical sounds with melody and harmony
@@ -76,40 +112,81 @@ Nature,Natural environmental sounds like wind or water
 
 2. **Audio files** in a directory (supports subfolders)
 
+⚠️ **CRITICAL: File Naming Requirements**
+- ❌ NO umlauts (ä, ö, ü)
+- ❌ NO accents (é, à, ñ)
+- ❌ NO spaces (use underscores _)
+
+**Examples:**
+```
+❌ Wrong: "Paco De Lucía.wav"
+✅ Correct: "Paco_De_Lucia.wav"
+
+❌ Wrong: "Müller & Söhne.wav"
+✅ Correct: "Mueller_und_Soehne.wav"
+```
+
 ---
 
 ## Usage
 
-### 1. Adjust Configuration
+### Quick Start: 3-Step Process
+
+The notebook is designed to be beginner-friendly with clear instructions at each step.
+
+### Starting Jupyter Notebook
+
+**Option 1: Jupyter Notebook (recommended for beginners)**
+```bash
+# In Terminal/Command Prompt, navigate to the folder:
+cd /path/to/audio_classification/
+
+# Start Jupyter:
+jupyter notebook
+
+# This will open in your browser. Click on "audio_class.ipynb"
+```
+
+**Option 2: VS Code**
+1. Install Python extension in VS Code
+2. Open `audio_class.ipynb`
+3. Select Python kernel
+
+**Option 3: JupyterLab**
+```bash
+jupyter lab
+```
+
+### ✏️ STEP 1: Configure Settings
+
+Open `audio_class.ipynb` in Jupyter Notebook and edit **Cell 2** (Configuration):
 
 ```python
-# Path to audio files (recursive search)
-folder_path = "/path/to/audio/files"
+# ── Your Audio Material Folder Path ──
+# Replace with the FULL path to your new audio material folder
+folder_path = "PUT_YOUR_FOLDER_PATH_HERE"  # ← CHANGE THIS!
 
-# CSV with categories (must be in the same folder)
-csv_path = "classes.csv"
-
-# Output directory for XML files
-xml_output_dir = "/path/to/output"
-
-# OpenAI API Key
-client = OpenAI(api_key="sk-...")
+# ── Your OpenAI API Key ──
+# Replace with your OpenAI API key
+api_key = "PUT_YOUR_API_KEY_HERE"  # ← CHANGE THIS!
 ```
 
-### 2. Run Notebook
+**Example paths:**
+- Windows: `"C:/Users/YourName/Documents/APO_Main/apo_material/new_sounds"`
+- macOS: `"/Users/YourName/Documents/APO_Main/apo_material/new_sounds"`
 
-**Jupyter Notebook:**
-```bash
-jupyter notebook audio_class.ipynb
-```
+### ▶️ STEP 2: Run All Cells
 
-**Google Colab:**
-1. Upload to Google Drive
-2. Right-click → "Open with Google Colaboratory"
-3. Adjust paths to Drive
-4. "Runtime → Run all"
+After configuring, run the cells in order:
+1. **Cell 2**: Load Dependencies (verify library versions)
+2. **Cell 3**: Initialize Model & Analyze (processes all audio files)
+3. **Cell 4**: Generate JSON Presets (creates preset folders)
 
-### 3. Check Results
+**To run:**
+- Click "Run" on each cell, or
+- Use "Cell → Run All" from the menu
+
+### ✅ STEP 3: Check Results
 
 **CSV File**: `audio_classification_results.csv`
 ```csv
@@ -323,6 +400,34 @@ def build_json(name: str, audio_features: dict) -> dict:
 
 ## Troubleshooting
 
+### Common Beginner Issues
+
+#### Problem: "ModuleNotFoundError: No module named 'tensorflow'"
+**Solution**: Libraries are not installed.
+```bash
+# Run in Terminal/Command Prompt:
+pip install tensorflow tensorflow-hub librosa openai pandas
+
+# Or try:
+pip3 install tensorflow tensorflow-hub librosa openai pandas
+
+# Then restart the notebook
+```
+
+#### Problem: "Invalid API key provided"
+**Solution**: 
+1. Check your API key at: https://platform.openai.com/api-keys
+2. Make sure you copied the entire key (starts with `sk-proj-...`)
+3. Ensure you're not sharing a screenshot with the key visible!
+
+#### Problem: Files not found or "No .wav files found"
+**Solution**: 
+1. Use the **full absolute path** to your folder
+2. Check that audio files are named correctly (no umlauts, accents, spaces)
+3. Supported formats: `.wav`, `.mp3`, `.flac`, `.ogg`
+
+### Advanced Troubleshooting
+
 ### Problem: "FileNotFoundError: classes.csv"
 **Solution**: CSV must be in the same folder as the notebook
 ```bash
@@ -436,9 +541,9 @@ def build_json(name: str, xml_data: dict) -> dict:
 - **OpenAI API**: Commercial use (API key required)
 
 ### Project
-- **Developed for**: Museum of Change Audio Software (Spatial Audio)
+- **Developed for**: APO "Museum of Change" Audio Software
 - **Version**: 1.0
-- **Date**: 2025-10-12
+- **Date**: October 2025
 
 ---
 
@@ -457,6 +562,6 @@ For questions or issues:
 
 ---
 
-**Last Updated**: 2025-10-12  
+**Last Updated**: 2025-10-15  
 **Python Version**: 3.8+  
-**Dependencies**: TensorFlow 2.x, Librosa 0.10+, OpenAI 1.0+
+**Dependencies**: TensorFlow 2.x, Librosa 0.10+, OpenAI 1.0+, Jupyter
