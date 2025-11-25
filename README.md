@@ -529,6 +529,26 @@ oscsend 10.1.11.72 9001 /iem/position/azimuth f 45.0
 oscsend 10.1.11.72 9001 /iem/position/elevation f 15.0
 ```
 
+#### 5.3.3 Ritual Shutdown (Outdoor only) (Port 3000)
+
+
+**:**
+When the external brain software sends `/DisplayCase 1` to the APO_Main, the outdoor content computer (WS-AUD-CON-PG8) automatically sends OSC messages via port 3000 to the outdoor spatial computer (WS-AUD-SPAT-PG8). Reaper's internal OSC logic receives these messages and mutes tracks for Durchgang DB11 and PG10.
+
+**Source:** Content computers  (Outdoor) 
+**Destination:** Spatial computers  
+**Messages:**
+
+| OSC Address | Type | Range | Description |
+|-------------|------|-------|-------------|
+| `/track/10/mute` | bin | 0/1 | DB11 Output Mute |
+| `/track/15/mute` | bin | 0/1 | PG10 Output Mute |
+
+**Example:**
+```
+oscsend 10.1.11.72 3000 /track/10/mute 0
+```
+
 ---
 
 ## 6. Content Computers (Max)
