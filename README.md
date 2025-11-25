@@ -102,8 +102,8 @@ The system follows a content-to-space architecture where audio content is first 
 
 | Computer | IP | Function | Software | Patch/Project |
 |----------|-----|----------|----------|---------------|
-| **WS-AUD-CON-PG8** | 10.1.11.71 | Outdoor Content | Max 9 | `APO_main_74.maxpat` |
-| **WS-AUD-CON-DMN** | 10.2.11.71 | Indoor Content | Max 9 | `APO_main_74_in.maxpat` |
+| **WS-AUD-CON-PG8** | 10.1.11.71 | Outdoor Content | Max 9 | `APO_main.maxpat` |
+| **WS-AUD-CON-DMN** | 10.2.11.71 | Indoor Content | Max 9 | `APO_main_in.maxpat` |
 | **WS-AUD-VIT-PG8** | 10.1.11.73 | Display Player | Max 9 | `APO_player.maxpat` |
 | **WS-AUD-SPAT-PG8** | 10.1.11.72 | Outdoor Spatial | Reaper | `APO_outdoor_output.rpp` |
 | **WS-AUD-SPAT-DMN** | 10.2.11.72 | Indoor Spatial | Reaper | `APO_indoor_output.rpp` |
