@@ -30,6 +30,10 @@
 
 This audio software is part of a larger AI-driven media installation system. The overall system analyzes and selects images and sounds, which are then processed and rendered by this audio software.
 
+**External Asset Repositories**
+- `APO_Main` curated audio pool (Google Drive download, see [Installation](#43-max-installation-content-computers)) – holds all sample material for the main synthesis engines.
+- `APO_Player` stems for the display player (Google Drive download, see [Installation](#43-max-installation-content-computers)) – required for the vitrines/content player patches.
+
 **The Audio Software consists of three main components:**
 
 **1. Content Generation (Max - Sample-based Synthesis/Processing)**
@@ -270,6 +274,15 @@ WS-AUD-SPAT-DMN → Speakers:
 ```
 
 ### 4.3 Max Installation (Content Computers)
+
+#### 4.3.0 Download Required Audio Material
+
+Before installing or opening the Max patches make sure the curated audio libraries are present locally:
+
+- **APO_Main audio pool**: Download the complete material from [`Google Drive`](https://drive.google.com/drive/folders/1OCAYhDjugzsMsfVJ31vc7mknuFToYQb1?usp=drive_link) and copy it into the `APO_Main/audio/` directory (or the NAS mirror used in production).
+- **APO_Player content**: Download the display-player stems from [`Google Drive`](https://drive.google.com/drive/folders/1sYxA1QZv9OP5vztY3qWIEySNhnnYpJ-0?usp=sharing) and place them inside `APO_Player/audio/`.
+
+*Hinweis (DE): Ohne diese beiden Downloads stehen keine Samples für `apo_main` bzw. `apo_player` zur Verfügung – bitte die jeweiligen Google-Drive-Ordner vollständig synchronisieren, bevor die Installation fortgesetzt wird.*
 
 #### 4.3.1 Install Max 9
 Download and install from [cycling74.com](https://cycling74.com/downloads) or use `/dependencies/Max909_250918_d7cea08.msi`
