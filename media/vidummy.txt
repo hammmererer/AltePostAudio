@@ -1,1 +1,0 @@
-open thispatcherpatcher C:/AP_MAX/APO_Main/APO_videodummy.maxpatinclude C:/AP_MAX/APO_Main/random-norep.maxpat
